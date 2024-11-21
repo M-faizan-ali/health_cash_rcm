@@ -10,7 +10,7 @@ import BillingSolutions from "./components/BillingSolutions";
 import TrustedLeaders from "./components/TrustedLeaders";
 import Testomonials from "./components/Testomonials";
 import CompanyNameSlider from "./components/CompanyNameSlider";
-import ImmediateAssistance from "./components/ImmediateAssistance";
+// import ImmediateAssistance from "./components/ImmediateAssistance";
 import Footer from "./components/Footer";
 export default function App() {
   return (
@@ -27,7 +27,7 @@ export default function App() {
         <TrustedLeaders/>
         <Testomonials/>
         <CompanyNameSlider />
-        <ImmediateAssistance/>
+        {/* <ImmediateAssistance/> */}
         <Footer/>
       </div>
     </>

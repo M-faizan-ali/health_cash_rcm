@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const AnimatedText = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,7 +12,9 @@ const AnimatedText = () => {
     <div className="flex justify-center items-center h-screen">
       <h1
         className={`text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 
-        ${isVisible ? 'animate-fillText' : 'opacity-0'} transform origin-center`}
+        ${
+          isVisible ? "animate-fillText" : "opacity-0"
+        } transform origin-center`}
       >
         Animated Text
       </h1>

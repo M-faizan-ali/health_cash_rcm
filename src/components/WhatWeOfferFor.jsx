@@ -4,12 +4,8 @@ import "../App.css";
 export default function WhatWeOfferFor() {
   return (
     <div
-      className="relative w-[1349px] bg-no-repeat bg-top-center bg-[#2e3482] py-[100px] px-0"
-      style={{
-        clipPath: "inset(0% 4.9572% round 29.7435px)",
-        backgroundImage:
-          "url('https://medipaybilling.com/wp-content/uploads/2024/01/service-bg-pattern.png')",
-      }}
+      className="relative bg-no-repeat bg-top-center bg-[#2e3482] py-[100px] px-0"
+      style={{ backgroundImage:"url('https://medipaybilling.com/wp-content/uploads/2024/01/service-bg-pattern.png')",      }}
     >
       <div className="text-center mb-[15px]">
         <h4 className="font-sora uppercase inline-block px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color text-center font-semibold text-[12px]">

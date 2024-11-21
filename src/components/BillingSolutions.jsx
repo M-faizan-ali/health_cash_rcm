@@ -3,11 +3,8 @@ import Typewriter from "typewriter-effect";
 export default function BillingSolutions() {
   return (
     <div
-      className="relative w-[1349px] bg-no-repeat bg-top-center bg-[#2e3482] py-[100px] px-0 mt-[100px]"
-      style={{
-        clipPath: "inset(0% 4.9572% round 29.7435px)",
-        backgroundImage:
-          "url('https://medipaybilling.com/wp-content/uploads/2024/01/service-bg-pattern.png')",
+      className="relative  bg-no-repeat bg-top-center bg-[#2e3482] py-[100px] px-0 mt-[100px]"
+      style={{ backgroundImage:"url('https://medipaybilling.com/wp-content/uploads/2024/01/service-bg-pattern.png')",
       }}
     >
       <div className="w-[1140px] m-auto text-justify">

@@ -12,8 +12,8 @@ export default function WhoWeServe() {
         Discover the diverse range of healthcare providers we support{" "}
       </h2>
 
-      <div className="flex gap-[25px] max-w-[1140px]">
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-[25px] max-w-[1140px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -32,7 +32,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -51,7 +51,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -70,7 +70,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -89,7 +89,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -108,7 +108,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className="w-1/6 bg-white rounded-[15px] relative py-[30px] px-[20px]">
+        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px]">
           <h2 className="font-sans font-[600] text-[#031b4e] normal-case">
             Healthcare<span className="block">system</span>
           </h2>

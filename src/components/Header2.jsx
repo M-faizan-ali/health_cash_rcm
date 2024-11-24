@@ -1,6 +1,6 @@
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaSearch } from "react-icons/fa";
 
-export default function Header() {
+export default function Header2() {
   // Common styles for text and icons
   const commonStyles = {
     fontFamily: "Roboto, sans-serif",
@@ -11,8 +11,9 @@ export default function Header() {
   };
 
   return (
-    <div className="hidden sm:block">
-      <div className="w-[95%] m-auto flex ">
+    <div className="hidden lg:block">
+      {/* Now it's hidden on all screen sizes except lg and above */}
+      <div className="w-[95%] m-auto flex">
         {/* First Div */}
         <div className="bg w-1/2 p-4">
           <div className="flex gap-9 items-center">
@@ -32,9 +33,8 @@ export default function Header() {
         </div>
 
         {/* Second Div */}
-        <div className=" w-1/2 p-4">
+        <div className="w-1/2 p-4">
           <div className="flex justify-end items-center">
-            {" "}
             {/* Align items to the end */}
             {/* Rotated Call icon pointing right */}
             <FaPhone style={{ ...commonStyles, transform: "rotate(90deg)" }} />

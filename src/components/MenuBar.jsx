@@ -5,7 +5,7 @@ export default function MenuBar() {
     "font-[600] text-[14px] font-sora tracking-[0.3px] uppercase not-italic";
   return (
     <div
-      className="h-[650px] w-[95%] m-auto rounded-[15px]"
+      className="h-[650px] w-[100%] sm:w-[100%] sm:rounded-[0] m-auto rounded-[15px]"
       style={{
         backgroundImage: `url('/assets/header-image-1.jpg')`,
         backgroundSize: "cover",

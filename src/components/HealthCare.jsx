@@ -11,10 +11,10 @@ export default function HealthCare() {
   };
   return (
     <>
-      <div className="flex w-[95%] m-auto">
+      <div className="lg:flex sm:w-[100%] lg:w-[95%] m-auto">
         {/* First Child with Two Inner Divs */}
-        <div className="w-1/2  p-4 flex gap-2">
-          <div className="w-3/5 relative ">
+        <div className="sm:w-full lg:w-1/2  p-4 lg:flex gap-2">
+          <div className="sm:w-full lg:w-3/5 relative ">
             <img
               src="/assets/asset 56.jpeg" // Ensure the image path is correct
               alt="Description of the first image" // Provide a descriptive alt text
@@ -33,7 +33,7 @@ export default function HealthCare() {
               </div>
             </div>
           </div>
-          <div className="w-2/5  p-2 ">
+          <div className="sm:w-full lg:w-2/5  p-2 sm:mt-[30px] lg:mt-[0]">
             {" "}
             {/* Added flex to center image */}
             <img
@@ -45,7 +45,7 @@ export default function HealthCare() {
         </div>
 
         {/* child 2 */}
-        <div className="w-1/2 pl-[90px] p-0">
+        {/* <div className="sm:w-full lg:w-1/2 lg:pl-[90px] p-0">
           <div className="">
             <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">
               About Medipay Billing{" "}
@@ -72,7 +72,38 @@ export default function HealthCare() {
               ></i>
             </button>
           </div>
-        </div>
+        </div> */}
+
+
+        {/* copy  */}
+        <div className="sm:w-full lg:w-1/2 lg:pl-[90px] p-0 flex flex-col items-center text-center sm:flex sm:items-center sm:text-center">
+          <div>
+            <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">
+              About Medipay Billing
+            </h4>
+            <div style={headingStyle} className="mt-5">
+              Streamlining
+            </div>
+            <div style={headingStyle}>Revenue Cycle</div>
+            <div style={headingStyle}>Management for</div>
+            <div style={headingStyle}>Healthcare</div>
+            <div style={headingStyle}>Providers</div>
+            <p className="font-[28px] text-p-color text-justify pt-[30px] font-roboto p-2">
+              At Medipay Billing, we are committed to delivering comprehensive revenue
+              cycle management solutions that simplify billing processes for healthcare
+              providers. With our industry expertise and dedication to excellence, we
+              help medical practices optimize their financial performance.
+            </p>
+            <button className="px-[35px] py-[18px] bg-g-blue text-white text-center mt-[30px] rounded-[50px]">
+              Know More
+              <i
+                className="fa-solid fa-arrow-right ml-2 transform rotate-[320deg] inline-block"
+                style={{ marginLeft: "8px" }}
+              ></i>
+            </button>
+  </div>
+</div>
+
       </div>
     </>
   );

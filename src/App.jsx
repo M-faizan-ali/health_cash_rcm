@@ -10,7 +10,7 @@ import BillingSolutions from "./components/BillingSolutions";
 import TrustedLeaders from "./components/TrustedLeaders";
 import Testomonials from "./components/Testomonials";
 import CompanyNameSlider from "./components/CompanyNameSlider";
-// import ImmediateAssistance from "./components/ImmediateAssistance";
+import ImmediateAssistance from "./components/ImmediateAssistance";
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
 import Header2 from "./components/Header2";
@@ -31,7 +31,7 @@ export default function App() {
         <TrustedLeaders/>
         <Testomonials/>
         <CompanyNameSlider />
-        {/* <ImmediateAssistance/> */}
+        <ImmediateAssistance/>
         <Footer/>
       </div>
     </>

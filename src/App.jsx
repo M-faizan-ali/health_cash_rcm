@@ -1,44 +1,24 @@
-import Header from "./components/Header";
-import MenuBar from "./components/MenuBar";
-import NumberPercentage from "./components/NumberPercentage";
-import HealthCare from "./components/HealthCare";
-import WhoWeServe from "./components/WhoWeServe";
-import WhatWeOfferFor from "./components/WhatWeOfferFor";
-import WhyChooseUs from "./components/WhyChooseUs";
-import AnimatedText from "./components/AnimtedText";
-import BillingSolutions from "./components/BillingSolutions";
-import TrustedLeaders from "./components/TrustedLeaders";
-import Testomonials from "./components/Testomonials";
-import CompanyNameSlider from "./components/CompanyNameSlider";
-import ImmediateAssistance from "./components/ImmediateAssistance";
 import Footer from "./components/Footer";
-import Navbar2 from "./components/Navbar2";
 import Header2 from "./components/Header2";
 import ContactUs from "./components/ContactUs";
 import SideBar from "./components/SideBar";
-import SideBarWithTailwind from "./components/SideBarWithTailwind";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Suspense } from "react";
+import Home from "./pages/Home";
+import ServiceInfo from "./pages/ServiceInfo";
 export default function App() {
   return (
-    <>
-      <div className="bg-body-color">
-        {/* <Header /> */}
-        {/* <MenuBar/> */}
-        <Header2/>
-        <Navbar2/>
-        <NumberPercentage/>
-        <HealthCare/>
-        <WhoWeServe/>
-        <WhatWeOfferFor/>
-        <WhyChooseUs/>
-        <BillingSolutions/>
-        <TrustedLeaders/>
-        <Testomonials/>
-        <CompanyNameSlider />
-        <ImmediateAssistance/>
-        <Footer/>
-        <ContactUs/>
-        <SideBar/>
-      </div>
-    </>
+    <BrowserRouter>
+      <Header2 />
+      <Suspense fallback={<div>{/* <Loader /> */}</div>}>
+        <Routes>
+          <Route path={`/`} element={<Home />} />
+          <Route path={`/contact`} element={<ContactUs />} />
+          <Route path={`/about`} element={<SideBar />} />
+          <Route path={`/services/:name`} element={<ServiceInfo />} />
+        </Routes>
+      </Suspense>
+      <Footer />
+    </BrowserRouter>
   );
 }

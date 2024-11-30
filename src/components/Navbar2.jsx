@@ -1,38 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { allServicesContent } from "../constants";
 
 export default function Navbar2() {
-  const services = [
-    {
-      title: "Medical Billing",
-      link: "services/name",
-    },
-    {
-      title: "Medical Coding",
-      link: "",
-    },
-    {
-      title: "Medical Credentialing",
-      link: "",
-    },
-    {
-      title: "Revenue Cycle Management (RCM)",
-      link: "",
-    },
-    {
-      title: "Front Desk",
-      link: "",
-    },
-    {
-      title: "Medical Transcriptions",
-      link: "",
-    },
-    {
-      title: "Virtual Assistance",
-      link: "",
-    },
-  ];
-
   const [page, setPage] = useState("/");
 
   useEffect(() => {
@@ -100,13 +70,13 @@ export default function Navbar2() {
               </a>
 
               <div className="invisible absolute z-50 flex w-[200px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
-                {services.map((service, index) => (
+                {Object.keys(allServicesContent).map((service, index) => (
                   <a
                     key={index}
-                    href={service.link}
+                    href={`/services/${service}`}
                     className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2"
                   >
-                    {service.title}
+                    {allServicesContent[service]?.title}
                   </a>
                 ))}
               </div>

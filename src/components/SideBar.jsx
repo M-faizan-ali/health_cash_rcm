@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FiArrowRight } from "react-icons/fi"; // Importing a lightweight arrow icon
 import ImmediateAssistance from "./ImmediateAssistance";
+import Navbar2 from "./Navbar2";
 const SideBar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [content, setContent] = useState("Content for Home");
@@ -23,6 +24,7 @@ const SideBar = () => {
 
   return (
     <>
+      <Navbar2 />
       <div className="w-[90%] m-auto">
         {/* sidebar  */}
         <div className="flex w-full mt-[100px] mb-[100px] gap-9">

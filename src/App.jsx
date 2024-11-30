@@ -14,6 +14,9 @@ import ImmediateAssistance from "./components/ImmediateAssistance";
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
 import Header2 from "./components/Header2";
+import ContactUs from "./components/ContactUs";
+import SideBar from "./components/SideBar";
+import SideBarWithTailwind from "./components/SideBarWithTailwind";
 export default function App() {
   return (
     <>
@@ -33,6 +36,8 @@ export default function App() {
         <CompanyNameSlider />
         <ImmediateAssistance/>
         <Footer/>
+        <ContactUs/>
+        <SideBar/>
       </div>
     </>
   );

@@ -15,7 +15,7 @@ export default function App() {
           <Route path={`/`} element={<Home />} />
           <Route path={`/contact`} element={<ContactUs />} />
           <Route path={`/about`} element={<SideBar />} />
-          <Route path={`/services/:name`} element={<ServiceInfo />} />
+          <Route path={`/services/:servicename`} element={<ServiceInfo />} />
         </Routes>
       </Suspense>
       <Footer />

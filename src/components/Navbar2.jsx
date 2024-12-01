@@ -10,6 +10,18 @@ export default function Navbar2() {
     setPage(currUrl);
   }, [page]);
 
+  const specialitiesList = [
+    "Dermatology",
+    "Oncology",
+    "Cardiology",
+    "Nephrology",
+    "Gynecology",
+    "Radiology",
+    "Physical",
+    "Therapy",
+    "Chiropractic",
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
   const textStyle =
     "font-[500]  text-[14px] font-sora tracking-[0.3px] uppercase not-italic text-white block mt-4 lg:inline-block lg:mt-0 mr-4";
@@ -69,21 +81,35 @@ export default function Navbar2() {
                 Services
               </a>
 
-              <div className="invisible absolute z-50 flex w-[200px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
+              <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
                 {Object.keys(allServicesContent).map((service, index) => (
                   <a
                     key={index}
                     href={`/services/${service}`}
-                    className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2"
+                    className="my-1 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2"
                   >
                     {allServicesContent[service]?.title}
                   </a>
                 ))}
               </div>
             </div>
-            <a href="#" className={textStyle}>
-              Specialities
-            </a>
+            <div className="inline-block group relative cursor-pointer py-2">
+              <a className={`menu-hover ${textStyle}`} onClick="">
+                Specialities
+              </a>
+
+              <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
+                {specialitiesList.map((speciality, index) => (
+                  <a
+                    key={index}
+                    href={`/#facilities`}
+                    className="my-1 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2"
+                  >
+                    {speciality}
+                  </a>
+                ))}
+              </div>
+            </div>
             <Link to="/about" className={textStyle}>
               About Us
             </Link>
@@ -97,7 +123,7 @@ export default function Navbar2() {
 
           {/* Button Section */}
           <div>
-            <button className="uppercase inline-flex items-center px-8 py-4 bg-white text-g-blue rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all hover:bg-g-blue hover:text-white">
+            <button className="inline-flex items-center px-8 py-4 bg-white text-g-blue rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all hover:bg-g-blue hover:text-white">
               Make an appointment
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +172,7 @@ export default function Navbar2() {
               Billing
             </p>
 
-            <button className="font-sora text-[11px] font-medium text-[#031b4e] uppercase tracking-[0px] leading-[33px] text-left whitespace-nowrap overflow-visible px-[32px] py-[11px] min-h-0 w-auto h-auto z-[12] rounded-[30px] align-top transform origin-center translate-x-0 translate-y-0 block left-[27.7192px] top-[608.193px] visible opacity-100 pointer-events-auto border-none bg-white mt-[30px] hover:bg-g-blue hover:text-white">
+            <Link to="/contact" className="inline-block font-sora text-[11px] font-medium text-[#031b4e] uppercase tracking-[0px] leading-[33px] text-left whitespace-nowrap overflow-visible px-[32px] py-[11px] min-h-0 w-auto h-auto z-[12] rounded-[30px] align-top transform origin-center translate-x-0 translate-y-0 block left-[27.7192px] top-[608.193px] visible opacity-100 pointer-events-auto border-none bg-white mt-[30px] hover:bg-g-blue hover:text-white">
               Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +188,7 @@ export default function Navbar2() {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </button>
+            </Link>
           </>
         ) : page === "/about" ? (
           <>

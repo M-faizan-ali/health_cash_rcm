@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSyringe } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon
 

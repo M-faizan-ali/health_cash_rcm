@@ -1,67 +1,65 @@
 import { useEffect, useState } from "react";
 import { FiArrowRight } from "react-icons/fi"; // Importing a lightweight arrow icon
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { allServicesContent } from "../constants";
+import Navbar2 from "../components/Navbar2";
+import {
+  Accordion,
+  AccordionBody,
+  AccordionHeader,
+} from "@material-tailwind/react";
 
 const ServiceInfo = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const menuItems = [
-    {
-      name: "Who We Are",
-      content: "Content for Home",
-      img: "https://medipaybilling.com/wp-content/uploads/2024/09/Virtual-Assistance.jpg",
-    },
-    {
-      name: "Our Mission",
-      content: "1Content for About,2content for About,3Content for about",
-    },
-    { name: "Why Choose Us?", content: "Content for Services" },
-    { name: "Our Vision", content: "Content for Contact" },
-    { name: "Learn More About Us", content: "Content for Contact" },
-  ];
-
-  const handleClick = (index) => {
-    setActiveIndex(index);
-  };
-
   const { servicename } = useParams();
   const [currService, setCurrentService] = useState(null);
   const [faqs, setFaqs] = useState();
+  const [open, setOpen] = useState(0);
+
+  const handleOpen = (value) => {
+    setOpen(open === value ? 0 : value);
+  };
   useEffect(() => {
     const content = allServicesContent[servicename];
     const currFaqs = allServicesContent[servicename].faqs;
     setCurrentService(content);
     setFaqs(currFaqs);
-  }, []);
+
+    // Smooth scroll to the top
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, [currService, servicename]);
 
   return (
     <>
+      <Navbar2 />
       <div className="w-[90%] m-auto">
         {/* sidebar  */}
         <div className="flex w-full mt-[100px] mb-[100px] gap-9">
           {/* Sidebar */}
           <div className="w-1/3 bg-white rounded-[15px] p-9 shadow-lg">
             <ul>
-              {menuItems.map((item, index) => (
-                <li
+              {Object.keys(allServicesContent).map((item, index) => (
+                <Link
+                  to={`/services/${item}`}
                   key={index}
-                  onClick={() => handleClick(index)}
                   className={`cursor-pointer p-4 flex justify-between items-center transition-all duration-300 ${
-                    activeIndex === index
+                    servicename === item
                       ? "bg-blue-500 text-white rounded-full shadow-md"
                       : "text-black"
                   }`}
                 >
-                  <span>{item.name}</span>
+                  {allServicesContent[item]?.title}
+
                   {/* Conditionally render the arrow for the active item */}
-                  {activeIndex === index && (
+                  {servicename === item && (
                     <span className="ml-2 flex justify-center items-center bg-white text-blue-500 rounded-full p-1">
-                      <FiArrowRight className="w-4 h-4" />{" "}
-                      {/* Using a lightweight arrow icon */}
+                      <FiArrowRight className="w-4 h-4" />
                     </span>
                   )}
-                </li>
+                </Link>
               ))}
             </ul>
           </div>
@@ -97,13 +95,16 @@ const ServiceInfo = () => {
                     data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white"
                   >
                     {faqs?.map((faq, idx) => (
-                      <>
-                        {/* Accordian  */}
-                        <div key={idx}>
-                          <p>{faq?.question}</p>
-                          <p>{faq?.answer}</p>
-                        </div>
-                      </>
+                      <Accordion
+                        key={idx}
+                        open={open === idx + 1} // Adjust open logic for each accordion
+                        icon={<Icon id={idx + 1} open={open} />} // Pass a unique id for each item
+                      >
+                        <AccordionHeader onClick={() => handleOpen(idx + 1)}>
+                          {faq?.question}
+                        </AccordionHeader>
+                        <AccordionBody>{faq?.answer}</AccordionBody>
+                      </Accordion>
                     ))}
                   </div>
                 </div>
@@ -117,3 +118,24 @@ const ServiceInfo = () => {
 };
 
 export default ServiceInfo;
+
+function Icon({ id, open }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+      stroke="currentColor"
+      className={`${
+        id === open ? "rotate-180" : ""
+      } h-5 w-5 transition-transform`}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+      />
+    </svg>
+  );
+}

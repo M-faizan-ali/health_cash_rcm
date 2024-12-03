@@ -21,6 +21,7 @@ export default {
         'p-color':'#666',
         'btn-color': '#3368c6',
         'special':'#01BBBE',
+        'acc-body':'#6e778c',
       },
       content: {
         'icon': '\\e92f',  

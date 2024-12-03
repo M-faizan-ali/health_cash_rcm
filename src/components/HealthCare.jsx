@@ -77,7 +77,7 @@ export default function HealthCare() {
 
         {/* copy  */}
         <div className="sm:w-full lg:w-1/2 lg:pl-[90px] p-0 flex flex-col items-center text-center sm:flex sm:items-center sm:text-center">
-          <div>
+          <div className="flex flex-col items-start">
             <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">
               About Medipay Billing
             </h4>
@@ -94,13 +94,16 @@ export default function HealthCare() {
               providers. With our industry expertise and dedication to excellence, we
               help medical practices optimize their financial performance.
             </p>
-            <button className="px-[35px] py-[18px] bg-g-blue text-white text-center mt-[30px] rounded-[50px]">
-              Know More
-              <i
-                className="fa-solid fa-arrow-right ml-2 transform rotate-[320deg] inline-block"
-                style={{ marginLeft: "8px" }}
-              ></i>
-            </button>
+            <a href="/about">
+              <button className="px-[35px] py-[18px] bg-g-blue text-white text-center mt-[30px] rounded-[50px]">
+                Know More
+                <i
+                  className="fa-solid fa-arrow-right ml-2 transform rotate-[320deg] inline-block"
+                  style={{ marginLeft: "8px" }}
+                ></i>
+              </button>
+            </a>
+           
   </div>
 </div>
 

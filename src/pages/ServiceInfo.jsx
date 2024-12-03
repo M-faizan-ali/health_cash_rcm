@@ -39,13 +39,14 @@ const ServiceInfo = () => {
         {/* sidebar  */}
         <div className="flex w-full mt-[100px] mb-[100px] gap-9">
           {/* Sidebar */}
-          <div className="w-1/3 bg-white rounded-[15px] p-9 shadow-lg">
+          <div className="w-[30%]">
+          <h2 className="text-center block pt-[20px] pb-[20px] text-2xl">Our Services</h2>
             <ul>
               {Object.keys(allServicesContent).map((item, index) => (
                 <Link
                   to={`/services/${item}`}
                   key={index}
-                  className={`cursor-pointer p-4 flex justify-between items-center transition-all duration-300 ${
+                  className={`cursor-pointer p-4 flex justify-between items-center transition-all duration-300 text-g-blue fond-semibold font-sora text-[14px]  ${
                     servicename === item
                       ? "bg-blue-500 text-white rounded-full shadow-md"
                       : "text-black"
@@ -65,7 +66,7 @@ const ServiceInfo = () => {
           </div>
 
           {/* Content Area */}
-          <div className="w-3/4 p-6 bg-transparent h-auto ">
+          <div className="w-[70%] p-6 bg-transparent h-auto ">
             <div>
               <div>
                 <img
@@ -88,7 +89,7 @@ const ServiceInfo = () => {
               <div className="">
                 <h1 className="text-[45px] font-bold mb-5">FAqs</h1>
 
-                <div className="*:mb-5 ml-8">
+                <div className="*:mb-5">
                   <div
                     id="accordion-color"
                     data-accordion="collapse"
@@ -100,10 +101,10 @@ const ServiceInfo = () => {
                         open={open === idx + 1} // Adjust open logic for each accordion
                         icon={<Icon id={idx + 1} open={open} />} // Pass a unique id for each item
                       >
-                        <AccordionHeader onClick={() => handleOpen(idx + 1)}>
+                        <AccordionHeader className="bg-white hover:bg-g-blue hover:text-white text-[16px] font-sora,sans-serif pl-[15px] pr-[15px] rounded-[15px] text-g-blue mb-[28px] pt-[20px] pb-[20px] pt-[20px]" onClick={() => handleOpen(idx + 1)}>
                           {faq?.question}
                         </AccordionHeader>
-                        <AccordionBody>{faq?.answer}</AccordionBody>
+                        <AccordionBody className="pl-[30px] pr-[30px] font-Roboto,sans-serif text-[16px] text-acc-body">{faq?.answer}</AccordionBody>
                       </Accordion>
                     ))}
                   </div>

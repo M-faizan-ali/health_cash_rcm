@@ -9,6 +9,7 @@ import Testomonials from "../components/Testomonials";
 import CompanyNameSlider from "../components/CompanyNameSlider";
 import ImmediateAssistance from "../components/ImmediateAssistance";
 import Navbar2 from "../components/Navbar2";
+import TailoredForEverySpecialty from "../components/TailoredForEverySpecialty";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <TrustedLeaders />
       <Testomonials />
       <CompanyNameSlider />
+      <TailoredForEverySpecialty/>
       <ImmediateAssistance />
     </>
   );

@@ -76,18 +76,18 @@ const ServiceInfo = () => {
                 />
               </div>
 
-              <h1 className="text-[45px] font-bold my-5">
+              <h1 className="text-[36px] font-sora text-heading-color font-normal font-bold my-5">
                 {currService?.title}
               </h1>
 
               <div id="content">
-                <div
+                <div className=""
                   dangerouslySetInnerHTML={{ __html: currService?.content }}
                 />
               </div>
 
               <div className="">
-                <h1 className="text-[45px] font-bold mb-5">FAqs</h1>
+                <h1 className="text-[36px] text-heading-color  font-bold mb-5">Frequently asked questions</h1>
 
                 <div className="*:mb-5">
                   <div
@@ -101,10 +101,10 @@ const ServiceInfo = () => {
                         open={open === idx + 1} // Adjust open logic for each accordion
                         icon={<Icon id={idx + 1} open={open} />} // Pass a unique id for each item
                       >
-                        <AccordionHeader className="bg-white hover:bg-g-blue hover:text-white text-[16px] font-sora,sans-serif pl-[15px] pr-[15px] rounded-[15px] text-g-blue mb-[28px] pt-[20px] pb-[20px] pt-[20px]" onClick={() => handleOpen(idx + 1)}>
+                        <AccordionHeader className="bg-white hover:bg-g-blue hover:text-white text-[16px] font-sora,sans-serif pl-[15px] pr-[15px] rounded-[15px] text-g-blue mb-[15px] pt-[20px]]" onClick={() => handleOpen(idx + 1)}>
                           {faq?.question}
                         </AccordionHeader>
-                        <AccordionBody className="pl-[30px] pr-[30px] font-Roboto,sans-serif text-[16px] text-acc-body">{faq?.answer}</AccordionBody>
+                        <AccordionBody className="pl-[30px] pr-[30px] pt-[0] font-Roboto,sans-serif text-[16px] text-para-color">{faq?.answer}</AccordionBody>
                       </Accordion>
                     ))}
                   </div>

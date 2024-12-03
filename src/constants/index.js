@@ -1,18 +1,19 @@
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+const styles = {
+  mainHeadingStyle:"font-sora,sans-serif text-[36px] text-heading-color ", // Define your class for the span
+  subHeadingStyle: "custom-div-container", // Define your class for the div
+};
 
 export const allServicesContent = {
   "VIRTUAL ASSISTANCE": {
-    title: "Virtual Assistance",
+    title: "Virtual Assistance Services",
     image:
       "https://medipaybilling.com/wp-content/uploads/2024/09/Virtual-Assistance.jpg",
     content: ` 
-    <ul>
-    <li><FaCheck /> Lorem ipsum dolor sit amet.</li>
-  </ul>
                <div class="flex gap-4 items-start mb-10">
-                  <p class="font-bold text-[50px]">A</p>
-                  <p class="text-lg ">
+                  <p class="font-bold text-g-blue text-[50px]">A</p>
+                  <p class="font-roboto,sans-serif text-[16px] text-para-color ">
                     orem ipsum dolor sit amet consectetur adipisicing elit.
                     Libero, voluptate assumenda? Ab amet veritatis laboriosam
                     ipsa nisi! Accusantium odio ut doloremque! Enim cum rem
@@ -22,9 +23,8 @@ export const allServicesContent = {
                 </div>
 
                 <div>
-                  <h1 class="text-[45px] font-bold mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt, cumque!
+                  <h1 class="${styles.mainHeadingStyle}">
+                    Why Choose Medipay Billing's Virtual Assistance Services?
                   </h1>
 
                   <div class="*:mb-5">
@@ -35,7 +35,10 @@ export const allServicesContent = {
 
                     <div class="flex items-start justify-between gap-5">
                       <ul class="*:text-lg *:mb-2">
-                        <li>
+                        <li class="flex gap-2">
+
+                        <svg class="w-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
                             <span><FaCheck /></span>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. At odio totam earum et! Quisquam quibusdam

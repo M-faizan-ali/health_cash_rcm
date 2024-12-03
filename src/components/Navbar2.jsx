@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { allServicesContent } from "../constants";
+
+import RealMenu from "./RealMenu";
 
 export default function Navbar2() {
   const [page, setPage] = useState("/");
@@ -10,21 +11,8 @@ export default function Navbar2() {
     setPage(currUrl);
   }, [page]);
 
-  const specialitiesList = [
-    "Dermatology",
-    "Oncology",
-    "Cardiology",
-    "Nephrology",
-    "Gynecology",
-    "Radiology",
-    "Physical",
-    "Therapy",
-    "Chiropractic",
-  ];
-
-  const [isOpen, setIsOpen] = useState(false);
-  const textStyle =
-    "font-[500]  text-[14px] font-sora tracking-[0.3px] uppercase not-italic text-white block mt-4 lg:inline-block lg:mt-0 mr-4";
+ 
+                                                  
   return (
     <div
       className="mb-[15px] sm:w-[100%] sm:rounded-none xl:w-[95%] m-auto xl:rounded-[15px]"
@@ -34,13 +22,13 @@ export default function Navbar2() {
         backgroundPosition: "center",
       }}
     >
-      <nav className="flex items-center justify-between flex-wrap p-6 bg-transparent">
-        {/* Logo Section */}
+      {/* <nav className="flex items-center justify-between flex-wrap p-6 bg-transparent">
+      
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <img src="/assets/asset 0.gif" alt="Logo" className="h-[100px]" />
         </div>
 
-        {/* Hamburger Menu for Mobile */}
+       
         <div className="block lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -66,7 +54,7 @@ export default function Navbar2() {
           </button>
         </div>
 
-        {/* Links Section */}
+      
         <div
           className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${
             isOpen ? "block" : "hidden"
@@ -121,7 +109,6 @@ export default function Navbar2() {
             </Link>
           </div>
 
-          {/* Button Section */}
           <div>
             <button className="inline-flex items-center px-8 py-4 bg-white text-g-blue rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all hover:bg-g-blue hover:text-white">
               Make an appointment
@@ -142,7 +129,8 @@ export default function Navbar2() {
             </button>
           </div>
         </div>
-      </nav>
+      </nav> */}
+      <RealMenu />
 
       <div className="pb-[100px] pl-9 mt-[80px] w-full">
         {page === "/" && (

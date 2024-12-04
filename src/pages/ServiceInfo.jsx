@@ -32,6 +32,8 @@ const ServiceInfo = () => {
     });
   }, [currService, servicename]);
 
+ 
+
   return (
     <>
       <Navbar2 />
@@ -66,7 +68,7 @@ const ServiceInfo = () => {
           </div>
 
           {/* Content Area */}
-          <div className="w-[70%] p-6 bg-transparent h-auto ">
+          <div className="w-[70%] bg-transparent h-auto ">
             <div>
               <div>
                 <img
@@ -104,7 +106,7 @@ const ServiceInfo = () => {
                         <AccordionHeader className="bg-white hover:bg-g-blue hover:text-white text-[16px] font-sora,sans-serif pl-[15px] pr-[15px] rounded-[15px] text-g-blue mb-[15px] pt-[20px]]" onClick={() => handleOpen(idx + 1)}>
                           {faq?.question}
                         </AccordionHeader>
-                        <AccordionBody className="pl-[30px] pr-[30px] pt-[0] font-Roboto,sans-serif text-[16px] text-para-color">{faq?.answer}</AccordionBody>
+                        <AccordionBody className="font-roboto font-normal text-[16px] text-base leading-6 tracking-normal text-transform-none not-italic text-para-color">{faq?.answer}</AccordionBody>
                       </Accordion>
                     ))}
                   </div>

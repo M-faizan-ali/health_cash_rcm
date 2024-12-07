@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
 import Home from "./pages/Home";
 import ServiceInfo from "./pages/ServiceInfo";
+import ServicePage from "./pages/ServicePage";
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ export default function App() {
           <Route path={`/`} element={<Home />} />
           <Route path={`/contact`} element={<ContactUs />} />
           <Route path={`/about`} element={<SideBar />} />
+          <Route path={`/services`} element={<ServicePage />} />
           <Route path={`/services/:servicename`} element={<ServiceInfo />} />
         </Routes>
       </Suspense>

@@ -262,6 +262,8 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+    summary: "In today’s digital age, having reliable medical billing support is more important than ever. Our virtual assistance services offer you the flexibility to manage your practice remotely, with the same level of efficiency and professionalism you expect from an in-house team."
+
   },
 
   "medical-billing": {
@@ -541,6 +543,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+     summary: "At Medipay Billing, we offer a comprehensive suite of services designed to streamline your practice's operations and maximize revenue. Our expert team ensures that each aspect of your medical billing and administrative tasks is handled with the utmost precision, allowing you to focus on what matters most—patient care."
   },
 
   "medical-credentialing": {
@@ -562,6 +565,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+      summary: "We understand that physician credentialing services are vital for maintaining a smooth operational flow. Our team handles the entire credentialing process, allowing you to focus on patient care while we ensure that your credentials are up-to-date and your practice is compliant with industry standards."
   },
   "revenue-cycle-management": {
     title: "Revenue Cycle Management (RCM)",
@@ -581,6 +585,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+    summary: "Efficient healthcare revenue management is the backbone of a successful practice. Our RCM services cover everything from patient registration to final account reconciliation, ensuring that you maximize your revenue potential."
   },
   "front-desk": {
     title: "Front Desk",
@@ -601,6 +606,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+    summary: "Your front desk is the first point of contact for your patients, and it’s crucial that it operates efficiently. Our front desk assistance services are designed to improve patient interaction and streamline administrative processes, helping you deliver exceptional care."
   },
   "medical-transcriptions": {
     title: "Medical Transcriptions",
@@ -621,6 +627,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+     summary: "Accuracy in medical records is non-negotiable. Our medical transcription services provide precise and timely documentation, ensuring that your practice's records are always up-to-date and compliant."
   },
   "virtual-assistance": {
     title: "Virtual Assistance",
@@ -645,5 +652,6 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
+    summary: "In today’s digital age, having reliable medical billing support is more important than ever. Our virtual assistance services offer you the flexibility to manage your practice remotely, with the same level of efficiency and professionalism you expect from an in-house team."
   },
 };

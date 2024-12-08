@@ -36,7 +36,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005586.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[150px]"
             />
           </div>
         </SwiperSlide>
@@ -45,7 +45,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005573.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -54,7 +54,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005574.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -63,7 +63,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005575.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -72,7 +72,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005576.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -81,7 +81,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005571.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -90,7 +90,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005577.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -99,7 +99,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005582.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -108,7 +108,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005581.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -117,7 +117,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005572-1.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -126,7 +126,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005570-1.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -135,7 +135,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005569.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -144,7 +144,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005568.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -153,7 +153,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005567.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -162,7 +162,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005643-1.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -171,7 +171,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005566.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -180,7 +180,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005583.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -189,7 +189,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005584.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -198,7 +198,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005585.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -207,7 +207,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005578.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -216,7 +216,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005579.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>
@@ -225,7 +225,7 @@ export default function CompanyNameSlider() {
             <img
               src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005579.png"
               alt=""
-              className="w-[431px] h-[201px]"
+              className="h-[120px]"
             />
           </div>
         </SwiperSlide>

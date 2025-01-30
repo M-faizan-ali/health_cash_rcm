@@ -18,6 +18,9 @@ export default function RealMenu() {
   const handleServiceClick = () => {
     navigate("/services");
   };
+  const handleMakeAppointmentClick=()=>{
+    navigate("/contact")
+  };
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -111,8 +114,8 @@ export default function RealMenu() {
           </Link>
         </div>
 
-        <div>
-          <button className="inline-flex items-center px-8 py-4 bg-white text-g-blue rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all hover:bg-g-blue hover:text-white">
+        <div className="sm:hidden lg:block"> 
+          <button onClick={handleMakeAppointmentClick} className="inline-flex items-center px-8 py-4 bg-white text-primary-heading-color rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all hover:bg-primary-heading-color hover:text-white ">
             Make an appointment
             <svg
               xmlns="http://www.w3.org/2000/svg"

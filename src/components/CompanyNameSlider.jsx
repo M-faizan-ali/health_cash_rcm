@@ -1,231 +1,254 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.css"; // Import Swiper styles
-import { Autoplay } from "swiper/modules"; // Import Autoplay from the correct module
-
+import "swiper/swiper-bundle.css"; 
+import { Autoplay } from "swiper/modules"; 
 export default function CompanyNameSlider() {
   return (
     <div className="w-[90%] m-auto mt-[50px] mb-[100px]" id="facilities">
       <Swiper
-        spaceBetween={20} // Space between slides
-        slidesPerView={1} // Default 1 slide per view for small screens
-        loop={true} // Infinite loop
+        spaceBetween={20} 
+        slidesPerView={1} 
+        loop={true} 
         autoplay={{
-          // Auto-slide to next set
-          delay: 3000, // 3 seconds delay
+         
+          delay: 1000, 
           disableOnInteraction: false,
         }}
         breakpoints={{
           640: {
-            slidesPerView: 1, // Show 1 slide on small screens
+            slidesPerView: 1, 
           },
           768: {
-            slidesPerView: 4, // Show 2 slides on medium screens
-          },
+            slidesPerView: 4, 
+              },
           1024: {
-            slidesPerView: 6, // Show 3 slides on large screens
-          },
+            slidesPerView: 6, 
+             },
           1440: {
-            slidesPerView: 6, // Show all slides on extra large screens
+            slidesPerView: 6, 
+            
           },
         }}
-        modules={[Autoplay]} // Ensure Autoplay module is added here
-      >
+        modules={[Autoplay]} 
+             >
+       
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005586.png"
+              src="assets/asset 29.png"
               alt=""
-              className="h-[150px]"
+              className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005573.png"
+              src="assets/asset 30.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005574.png"
+              src="assets/asset 31.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005575.png"
+              src="assets/asset 32.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005576.png"
+              src="assets/asset 33.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005571.png"
+              src="assets/asset 34.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005577.png"
+              src="assets/asset 35.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005582.png"
+              src="assets/asset 36.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005581.png"
+              src="assets/asset 37.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005572-1.png"
+              src="assets/asset 38.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005570-1.png"
+              src="assets/asset 39.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005569.png"
+              src="assets/asset 40.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005568.png"
+              src="assets/asset 41.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005567.png"
+              src="assets/asset 42.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005643-1.png"
+              src="assets/asset 43.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005566.png"
+              src="assets/asset 44.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005583.png"
+              src="assets/asset 45.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005584.png"
+              src="assets/asset 46.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005585.png"
+              src="assets/asset 47.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005578.png"
+              src="assets/asset 48.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005579.png"
+              src="assets/asset 49.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
             <img
-              src="https://medipaybilling.com/wp-content/uploads/2024/09/Group-1000005579.png"
+              src="assets/asset 50.png"
               alt=""
               className="h-[120px]"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>

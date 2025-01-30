@@ -15,10 +15,7 @@ export default function Footer() {
               />
 
               <p className="">
-                Medipay Billing is a team of seasoned professionals with
-                extensive experience in the healthcare industry. Our goal is to
-                alleviate the administrative burden of billing, allowing you to
-                concentrate on patient care.{" "}
+              At Square Medix, we are dedicated to providing end-to-end revenue cycle management solutions that streamline billing processes for healthcare providers, ensuring efficiency and accuracy at every step.{" "}
               </p>
               <div>
                 <img src="" alt="" />
@@ -26,11 +23,8 @@ export default function Footer() {
             </div>
 
             <div className="w-full md:w-[67%]">
-              <div className="my-5 text-[30px] text-[#2e3482] font-bold">
-                At Medipay Billing, we are committed to delivering comprehensive
-                revenue cycle management solutions that simplify billing
-                processes for healthcare providers.
-              </div>
+              <div className="my-5 text-[30px] text-primary-heading-color font-bold">
+              Square Medix offers comprehensive revenue cycle management solutions that streamline billing, optimize reimbursement, and reduce financial complexities, enabling healthcare providers to focus on exceptional patient care.</div>
 
               <div className="flex flex-col sm:flex-row gap-6 ">
                 <div>
@@ -68,7 +62,7 @@ export default function Footer() {
                     888-322-2702
                   </p>
                   <p className="my-1 block py-1 font-semibold text-gray-500">
-                    info@medipaybilling.com
+                    info@squaremedix.com
                   </p>
                 </div>
               </div>

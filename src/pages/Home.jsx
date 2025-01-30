@@ -10,6 +10,7 @@ import CompanyNameSlider from "../components/CompanyNameSlider";
 import ImmediateAssistance from "../components/ImmediateAssistance";
 import Navbar2 from "../components/Navbar2";
 import TailoredForEverySpecialty from "../components/TailoredForEverySpecialty";
+import PostArticles from "../components/PostArticles";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Testomonials />
       <CompanyNameSlider />
       <TailoredForEverySpecialty/>
+      {/* <PostArticles/> */}
       <ImmediateAssistance />
     </>
   );

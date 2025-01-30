@@ -22,6 +22,9 @@ export default {
         'btn-color': '#3368c6',
         'special':'#01BBBE',
         'para-color':'#6e778c',
+        'bg-color': '#5790AB',
+        'bg-color': '#9CCDDB',
+        'primary-heading-color':'#064469',
       },
       content: {
         'icon': '\\e92f',  

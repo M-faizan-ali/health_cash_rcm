@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { FiArrowRight } from "react-icons/fi"; // Importing a lightweight arrow icon
+import { FiArrowRight } from "react-icons/fi"; 
 import ImmediateAssistance from "./ImmediateAssistance";
 import Navbar2 from "./Navbar2";
 const SideBar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [content, setContent] = useState("Content for Home");
+  const [content, setContent] = useState("Square Medix consists of a dedicated team with extensive knowledge in the healthcare field. Our primary goal is to ease the administrative challenges of billing, enabling healthcare providers to focus on delivering high-quality patient care. We offer reliable and streamlined billing solutions that ensure timely payments and help reduce financial strain.");
 
   const menuItems = [
     { name: "Who We Are", content: "Content for Home" },
@@ -37,7 +37,7 @@ const SideBar = () => {
                   onClick={() => handleClick(index)}
                   className={`cursor-pointer p-4 flex justify-between items-center transition-all duration-300 ${
                     activeIndex === index
-                      ? "bg-blue-500 text-white rounded-full shadow-md"
+                      ? "bg-bg-color text-white rounded-full shadow-md"
                       : "text-black"
                   }`}
                 >
@@ -56,7 +56,7 @@ const SideBar = () => {
 
           {/* Content Area */}
           <div className="w-3/4 p-6 bg-transparent border border-[#ccc] rounded-[15px] flex flex-col items-start">
-            <h1 className="text-2xl">
+            <h1 className="flex items-center min-h-screen">
               {content.split(",").map((line, index) => (
                 <div key={index}>{line}</div>
               ))}

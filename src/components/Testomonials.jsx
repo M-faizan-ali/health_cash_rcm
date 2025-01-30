@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testomonials() {
   return (
-    <section className="py-12 sm:py-16 lg:py-20 bg-g-blue">
+    <section className="py-12 sm:py-16 lg:py-20 bg-bg-color">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">
@@ -97,6 +97,7 @@ export default function Testomonials() {
                       className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                       src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png"
                       alt=""
+                      loading="lazy"
                     />
                     <div className="ml-4">
                       <p className="text-base font-bold text-gray-900 font-pj">
@@ -169,6 +170,7 @@ export default function Testomonials() {
                       className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                       src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png"
                       alt=""
+                      loading="lazy"
                     />
                     <div className="ml-4">
                       <p className="text-base font-bold text-gray-900 font-pj">
@@ -242,6 +244,7 @@ export default function Testomonials() {
                       className="flex-shrink-0 object-cover rounded-full w-11 h-11"
                       src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-female.png"
                       alt=""
+                      loading="lazy"
                     />
                     <div className="ml-4">
                       <p className="text-base font-bold text-gray-900 font-pj">

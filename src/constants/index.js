@@ -17,13 +17,13 @@ export const allServicesContent = {
                <div class="flex gap-4 items-start mb-10">
                   <p class="font-bold text-g-blue text-[50px]">A</p>
                   <p class="${styles.paraStyle}">
-                    t Medipay Billing, we understand the importance of efficiency and flexibility in managing your practice’s administrative tasks. Our Virtual Assistance Services are designed to support healthcare providers by handling a range of non-medical functions, allowing you to focus on what you do best—providing exceptional patient care.
+                    t Square Medix, we understand the importance of efficiency and flexibility in managing your practice’s administrative tasks. Our Virtual Assistance Services are designed to support healthcare providers by handling a range of non-medical functions, allowing you to focus on what you do best—providing exceptional patient care.
                   </p>
                 </div>
 
                 <div>
                   <h1 class="${styles.mainHeadingStyle}">
-                    Why Choose Medipay Billing's Virtual Assistance Services?
+                    Why Choose Square MEdix's Virtual Assistance Services?
                   </h1>
 
                   <div class="*:mb-5">
@@ -242,7 +242,7 @@ export const allServicesContent = {
         isOpen: false,
       },
       {
-        question: "2. How do I get started with Medipay Billing’s Virtual Assistance Services?",
+        question: "2. How do I get started with Square Medix Virtual Assistance Services?",
         answer: "To get started, simply reach out to us for an initial consultation. We’ll discuss your specific needs and determine which services are best suited for your practice. After the consultation, we’ll create a customized plan and begin implementation.",
         isOpen: false,
       },
@@ -543,7 +543,7 @@ export const allServicesContent = {
         isOpen: false,
       },
     ],
-     summary: "At Medipay Billing, we offer a comprehensive suite of services designed to streamline your practice's operations and maximize revenue. Our expert team ensures that each aspect of your medical billing and administrative tasks is handled with the utmost precision, allowing you to focus on what matters most—patient care."
+     summary: "At Square Medix, we offer a comprehensive suite of services designed to streamline your practice's operations and maximize revenue. Our expert team ensures that each aspect of your medical billing and administrative tasks is handled with the utmost precision, allowing you to focus on what matters most—patient care."
   },
 
   "medical-credentialing": {
@@ -634,7 +634,7 @@ export const allServicesContent = {
     image:
       "https://medipaybilling.com/wp-content/uploads/2024/09/Virtual-Assistance.jpg",
     content: `<div>
-<span style="color: rgb(110, 119, 140); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(240, 247, 253)"><span style="font-size: 60px;">A</span>t Medipay Billing, we specialize in transforming the complexities of Revenue Cycle Management (RCM) into streamlined, efficient processes that enhance your financial performance. Our comprehensive RCM services are designed to optimize your revenue, reduce administrative burdens, and improve overall operational efficiency.</span>
+<span style="color: rgb(110, 119, 140); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(240, 247, 253)"><span style="font-size: 60px;">A</span>t Square Medix, we specialize in transforming the complexities of Revenue Cycle Management (RCM) into streamlined, efficient processes that enhance your financial performance. Our comprehensive RCM services are designed to optimize your revenue, reduce administrative burdens, and improve overall operational efficiency.</span>
 <br />
 </div>
  `,

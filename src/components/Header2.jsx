@@ -27,7 +27,7 @@ export default function Header2() {
               className="flex items-center gap-2"
               style={commonStyles}
             >
-              <FaEnvelope style={commonStyles} /> info@medipaybilling.com
+              <FaEnvelope style={commonStyles} /> info@squaremedix.com
             </a>
           </div>
         </div>
@@ -40,9 +40,9 @@ export default function Header2() {
             <FaPhone style={{ ...commonStyles, transform: "rotate(90deg)" }} />
             <p style={commonStyles}>Make a call: 9834894</p>
             {/* Search icon */}
-            <p className="">
+            {/* <p className="">
               <FaSearch style={commonStyles} />
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

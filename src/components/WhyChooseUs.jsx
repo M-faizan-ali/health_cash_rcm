@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
           </h4>
         </div>
 
-        <h2 className="font-sora font-medium text-[48px] leading-[60px] tracking-0 text-heading-color text-center mb-[50px]">
+        <h2 className="font-sora font-medium text-[48px] leading-[60px] tracking-0 text-primary-heading-color text-center mb-[50px]">
           Why choose us
         </h2>
 
@@ -21,51 +21,50 @@ export default function WhyChooseUs() {
             <div className="flex w-full mb-[80px] pr-[15px]">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
-                  alt=""
+                  src="assets/asset 15.png"
+                  alt="" loading="lazy"
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Demonstrated<span className="block">Expertise</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                Our team’s profound expertise in revenue cycle management guarantees full compliance while optimizing revenue potential.
                 </p>
               </div>
             </div>
             <div className="flex w-full mb-[80px]">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
+                  src="assets/asset 16.png"
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Customized<span className="block">Solutions</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                Tailored billing solutions specifically crafted to meet the distinct needs of your practice.
                 </p>
               </div>
             </div>
             <div className="flex w-full">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
+                  src="assets/asset 17.png"
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Revenue<span className="block">Enhancement</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                Comprehensive strategies and specialized expertise designed to maximize your revenue and secure long-term financial success.
                 </p>
               </div>
             </div>
@@ -77,8 +76,9 @@ export default function WhyChooseUs() {
               <div className="p-[15px] border-2 border-dashed border-[#64A7E6] rounded-full">
                 <img
                   className=" rounded-full"
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/doctor1.jpg"
+                  src="assets/asset 18.jpeg"
                   alt=""
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -89,51 +89,51 @@ export default function WhyChooseUs() {
             <div className="flex w-[100%] mb-[80px]">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
+                  src="assets/asset 19.png"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Industry<span className="block">Insights</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                We ensure your billing practices are always aligned with the latest industry standards for optimal efficiency.
                 </p>
               </div>
             </div>
             <div className="flex w-[100%] mb-[80px]">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
+                  src="assets/asset 20.png"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Client-Centric<span className="block">Service</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                Focusing on your priorities through clear communication and comprehensive reporting.
                 </p>
               </div>
             </div>
             <div className="flex w-[100%]">
               <div className="image-icon relative pr-[20px] pb-[20px]">
                 <img
-                  src="https://medipaybilling.com/wp-content/uploads/2024/09/quality-1.png"
+                  src="assets/asset 21.png"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div>
-                <h2 className="font-sora font-medium tracking-normal text-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
-                  Proven<span className="block">Expertise</span>{" "}
+                <h2 className="font-sora font-medium tracking-normal text-primary-heading-color normal-case not-italic pb-[15px] leading-[1.7]">
+                Anticipatory<span className="block">Support</span>{" "}
                 </h2>
                 <p className="font-roboto text-[#666]">
-                  Our team’s deep knowledge of revenue cycle management ensures
-                  compliance and maximizes your revenue.
+                Providing continuous support to resolve any issues and ensure the seamless operation of your billing processes.
                 </p>
               </div>
             </div>

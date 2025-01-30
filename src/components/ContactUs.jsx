@@ -1,5 +1,6 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Navbar2 from "./Navbar2";
+import ImmediateAssistance from "./ImmediateAssistance";
 
 export default function ContactUs() {
   const HeadingText =
@@ -10,12 +11,13 @@ export default function ContactUs() {
   return (
     <>
       <Navbar2 />
+    
 
       <div className="mt-9 w-[90%] m-auto">
         {/* first div  */}
         <div>
           <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">
-            get in touch with medipay billing
+            get in touch with Square Medix
           </h4>
           <h2 className={HeadingText}>We&apos;re here to help you</h2>
           <p className={paraText}>
@@ -35,7 +37,7 @@ export default function ContactUs() {
         </div>
 
         {/* 3rd div  */}
-        <div className="flex justify-between flex-col md:flex-row p-6 gap-3 bg-gray-100">
+        <div className="flex justify-between flex-col md:flex-row p-6 gap-3">
           {/* First Column: Call */}
           <div className="flex items-center space-x-4">
             <div className="flex-shrink-0">
@@ -78,6 +80,7 @@ export default function ContactUs() {
         </div>
 
         {/* <Footer/> */}
+        <ImmediateAssistance/>
       </div>
     </>
   );

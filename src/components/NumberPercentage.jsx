@@ -5,21 +5,20 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 export default function NumberPercentage() {
   useEffect(() => {
-    // Initialize AOS
     AOS.init({
-      duration: 1500, // Animation duration (in ms)
-      once: true, // If true, animation happens only once
+      duration: 1500, 
+      once: true, 
     });
   }, []);
 
   const [startCount, setStartCount] = useState(false);
 
-  // Intersection Observer to trigger the counter
+  
   const { ref, inView } = useInView({
-    triggerOnce: true, // trigger only once
+    triggerOnce: true, 
     onChange: (inView) => {
       if (inView) {
-        setStartCount(true); // Start counter when the section comes into view
+        setStartCount(true); 
       }
     },
   });
@@ -39,7 +38,7 @@ export default function NumberPercentage() {
     fontWeight: "600",
     fontFamily: "Sora, sans-serif",
     letterSpacing: "0",
-    color: "#031b4e",
+    color: "#072D44",
     textTransform: "none",
     fontStyle: "normal",
   };
@@ -53,7 +52,7 @@ export default function NumberPercentage() {
               <i className="fas fa-users mr-2"></i>First Level Acceptance
             </p>
             <p style={paragraphStyles2}>
-              {startCount && <CountUp start={0} end={88} duration={2.5} />}
+              {startCount && <CountUp start={0} end={89} duration={2.5} />}
               <sup>+</sup>
             </p>
           </div>
@@ -65,7 +64,7 @@ export default function NumberPercentage() {
               Provider Served
             </p>
             <p style={paragraphStyles2}>
-              {startCount && <CountUp start={0} end={700} duration={1.5} />}
+              {startCount && <CountUp start={0} end={800} duration={1.5} />}
               <sup>+</sup>
             </p>
           </div>
@@ -75,7 +74,7 @@ export default function NumberPercentage() {
               Revenue Increase
             </p>
             <p style={paragraphStyles2}>
-              {startCount && <CountUp start={0} end={20} duration={3.5} />}%
+              {startCount && <CountUp start={0} end={25} duration={3.5} />}%
             </p>
           </div>
         </div>

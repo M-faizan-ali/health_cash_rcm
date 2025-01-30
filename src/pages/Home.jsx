@@ -26,7 +26,7 @@ const Home = () => {
       <Testomonials />
       <CompanyNameSlider />
       <TailoredForEverySpecialty/>
-      {/* <PostArticles/> */}
+      <PostArticles/>
       <ImmediateAssistance />
     </>
   );

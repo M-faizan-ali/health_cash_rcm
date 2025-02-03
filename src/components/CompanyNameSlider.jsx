@@ -8,7 +8,7 @@ export default function CompanyNameSlider() {
       <Swiper
         spaceBetween={20} 
         slidesPerView={1} 
-        loop={true} 
+        // loop={true} 
         autoplay={{
          
           delay: 1000, 

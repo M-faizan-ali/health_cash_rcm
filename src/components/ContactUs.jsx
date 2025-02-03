@@ -21,18 +21,15 @@ export default function ContactUs() {
           </h4>
           <h2 className={HeadingText}>We&apos;re here to help you</h2>
           <p className={paraText}>
-            Whether you have a question, need detailed information or want to
-            explore how our medical billing services can optimize your
-            practice’s revenue, we’re just a message away.
+            Whether you have a question, seek in-depth insights, or wish to discover how our medical billing services can streamline your practice’s revenue cycle, we’re only a message away. Let us empower your practice with precision, efficiency, and results that matter.
           </p>
         </div>
         {/* second div  */}
         <div className="mt-[70px] mb-[70px]">
-          <h2 className={HeadingText}>We&apos;re here to help you</h2>
+          <h2 className={HeadingText}>Transform Your Practice—Contact Medical Billing Services Today!
+</h2>
           <p className={paraText}>
-            Whether you have a question, need detailed information or want to
-            explore how our medical billing services can optimize your
-            practice’s revenue, we’re just a message away.
+          We are committed to providing exceptional service and addressing your billing inquiries with efficiency and precision. Contact our healthcare billing support team via the form below or by phone, and we will ensure a timely and comprehensive response to meet your needs.
           </p>
         </div>
 

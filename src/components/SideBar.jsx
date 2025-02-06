@@ -2,7 +2,8 @@ import { useState } from "react";
 import { FiArrowRight } from "react-icons/fi"; 
 import ImmediateAssistance from "./ImmediateAssistance";
 import Navbar2 from "./Navbar2";
-const SideBar = () => {
+import HealthCare from "./HealthCare";
+const Sidebar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [content, setContent] = useState("Square Medix consists of a dedicated team with extensive knowledge in the healthcare field. Our primary goal is to ease the administrative challenges of billing, enabling healthcare providers to focus on delivering high-quality patient care. We offer reliable and streamlined billing solutions that ensure timely payments and help reduce financial strain.");
 
@@ -71,4 +72,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+export default Sidebar;

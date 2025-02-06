@@ -18,13 +18,13 @@ export default function PostArticles() {
               <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
             </a>
             <a href="#!">
-              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm hover:bg-white hover:primary-heading-color transition duration-500 ease-in-out">
+              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm  hover:primary-heading-color transition duration-500 ease-in-out">
                 Photos
               </div>
             </a>
 
             <a href="#!">
-              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:primary-heading-color transition duration-500 ease-in-out">
+              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3  hover:primary-heading-color transition duration-500 ease-in-out">
                 <span className="font-bold">27</span>
                 <small>March</small>
               </div>
@@ -81,13 +81,13 @@ export default function PostArticles() {
               <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
             </a>
             <a href="#!">
-              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm hover:bg-white hover:text- transition duration-500 ease-in-out">
+              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm  hover:text- transition duration-500 ease-in-out">
                 Photos
               </div>
             </a>
 
             <a href="#!">
-              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:primary-heading-color transition duration-500 ease-in-out">
+              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3  hover:primary-heading-color transition duration-500 ease-in-out">
                 <span className="font-bold">20</span>
                 <small>March</small>
               </div>
@@ -141,13 +141,13 @@ export default function PostArticles() {
               <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
             </a>
             <a href="#!">
-              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm hover:bg-white hover:primary-heading-color transition duration-500 ease-in-out">
+              <div className="absolute bottom-0 left-0 bg-primary-heading-color px-4 py-2 text-white text-sm  hover:primary-heading-color transition duration-500 ease-in-out">
                 Photos
               </div>
             </a>
 
             <a href="#!">
-              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:primary-heading-color transition duration-500 ease-in-out">
+              <div className="text-sm absolute top-0 right-0 bg-primary-heading-color px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3  hover:primary-heading-color transition duration-500 ease-in-out">
                 <span className="font-bold">15</span>
                 <small>April</small>
               </div>

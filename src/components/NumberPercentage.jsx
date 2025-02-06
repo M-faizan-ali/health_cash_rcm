@@ -29,7 +29,8 @@ export default function NumberPercentage() {
     fontStyle: "normal",
     fontSize: "16px",
     lineHeight: "16px",
-    color: "#2e3482",
+    // color: "#2e3482",
+    color:"#072D44",
     marginBottom: "8px",
   };
   const paragraphStyles2 = {

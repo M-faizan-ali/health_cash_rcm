@@ -67,14 +67,10 @@ export default function ContactUs() {
         </div>
 
         {/* 4th div  */}
-        <div>
-          <h2 className={HeadingText}>We&apos;re here to help you</h2>
-          <p className={paraText}>
-            Whether you have a question, need detailed information or want to
-            explore how our medical billing services can optimize your
-            practice’s revenue, we&apos;re just a message away.
-          </p>
-        </div>
+        {/* <div>
+          <h2 className={HeadingText}>Get Instant Assistance from Our Experts
+          </h2>
+        </div> */}
 
         {/* <Footer/> */}
         <ImmediateAssistance/>

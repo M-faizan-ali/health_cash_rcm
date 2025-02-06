@@ -90,15 +90,15 @@ export default function WhatWeOfferFor() {
       </div>
 
 
-      <div className="text-center mb-[15px] mt-[100px] relative ">
-        <div className="font-sora inline-block py-3 pr-[70px] pl-[40px] border  border-[rgba(255,255,255,0.3)] rounded-[30px]   text-white text-center sm:text-[12px] md:text-[16px] relative">
-        Need more services? Get in touch with us!
-          <span>Contact Us</span>
-          <a className="absolute bottom-0 right-0 border border-white  bg-white rounded-full w-[50px] h-[50px] flex items-center justify-center cursor-pointer">
-            <i className="fa-solid fa-arrow-right transform rotate-[320deg] text-sm text-center rounded-[50%] text-g-blue"></i>
-          </a>
-        </div>
+      <div class="text-center mb-[15px] mt-[100px] relative">
+        <a href="/contact" class="inline-block">
+          <div class="font-sora inline-block py-3 pr-[70px] pl-[40px] hover:bg-primary-heading-color border border-gray cursor-pointer rounded-[30px] text-white text-center sm:text-[12px] md:text-[16px] relative shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            Need more services? Get in touch with us!
+            <span class="ml-2 underline">Contact Us</span>
+          </div>
+        </a>
       </div>
+
     </div>
   );
 }

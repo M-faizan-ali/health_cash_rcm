@@ -16,17 +16,17 @@ const BlogPage = () => {
     <>
       <Navbar2 />
       <div className="w-full bg-white">
-        <div className="container w-[70%] mx-auto">
-          <div className="flex  py-20">
-            <div className="w-[70%]">
+        <div className="container px-10 mx-auto">
+          <div className="flex flex-col lg:flex-row py-20">
+            <div className="w-full lg:w-[70%]">
               {allBlogsContent.map((blogItem, index) => (
                 <div key={index} className="mb-10 text-[#2e3482]">
                   <img
-                    className="rounded-[20px] w-[70%] mb-5"
+                    className="rounded-[20px] w-full lg:w-[70%] mb-5"
                     src={blogItem.image}
                     alt=""
                   />
-                  <div className="flex items-center gap-4 uppercase text-lg mb-5">
+                  <div className="flex flex-col md:flex-row items-start md:items-center gap-4 uppercase text-lg mb-5">
                     <div className="flex gap-2 items-center">
                       <svg
                         className="w-[15px]"
@@ -51,7 +51,7 @@ const BlogPage = () => {
                     </div>
                   </div>
 
-                  <h1 className="text-[32px] font-semibold mb-2">
+                  <h1 className="text-[26px] md:text-[32px] font-semibold mb-2">
                     {blogItem.title}
                   </h1>
                   <hr className="mb-2" />
@@ -84,7 +84,7 @@ const BlogPage = () => {
               ))}
             </div>
 
-            <div className="w-[30%] px-5 flex justify-end">
+            <div className="w-full lg:w-[30%] px-5 flex justify-end">
               <div className="w-full px-5 h-fit py-10  rounded-[15px] flex flex-col items-center justify-center gap-8 text-white shadow-2xl blog-contact-card-bg">
                 <p className="px-9 py-2 border border-white rounded-full">
                   Get in touch

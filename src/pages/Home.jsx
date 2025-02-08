@@ -15,7 +15,7 @@ import PostArticles from "../components/PostArticles";
 const Home = () => {
   return (
     <>
-    <Navbar2 />
+      <Navbar2 />
       <NumberPercentage />
       <HealthCare />
       <WhoWeServe />
@@ -25,8 +25,8 @@ const Home = () => {
       <TrustedLeaders />
       <Testomonials />
       <CompanyNameSlider />
-      <TailoredForEverySpecialty/>
-      <PostArticles/>
+      <TailoredForEverySpecialty />
+      <PostArticles />
       <ImmediateAssistance />
     </>
   );

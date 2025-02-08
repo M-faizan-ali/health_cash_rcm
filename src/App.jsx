@@ -7,6 +7,8 @@ import { Suspense } from "react";
 import Home from "./pages/Home";
 import ServiceInfo from "./pages/ServiceInfo";
 import ServicePage from "./pages/ServicePage";
+import BlogPage from "./pages/BlogPage";
+import BlogInfo from "./pages/BlogInfo";
 export default function App() {
   return (
     <BrowserRouter>
@@ -18,6 +20,8 @@ export default function App() {
           <Route path={`/about`} element={<SideBar />} />
           <Route path={`/services`} element={<ServicePage />} />
           <Route path={`/services/:servicename`} element={<ServiceInfo />} />
+          <Route path={`/blog`} element={<BlogPage />} />
+          <Route path={`/blog/:slug`} element={<BlogInfo />} />
         </Routes>
       </Suspense>
       <Footer />

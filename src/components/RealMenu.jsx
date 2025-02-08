@@ -106,7 +106,7 @@ export default function RealMenu() {
           <Link to="/about" className={textStyle + " textblack"}>
             About Us
           </Link>
-          <a href="#" className={textStyle + " textblack"}>
+          <a href="/blog" className={textStyle + " textblack"}>
             Blog
           </a>
           <Link to="/contact" className={textStyle + " textblack"}>

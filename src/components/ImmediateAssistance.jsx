@@ -2,15 +2,15 @@ import React from "react";
 export default function ImmediateAssistance() {
   return (
     <div className="w-[95%] m-auto mt-[50px] mb-[100px]">
-      <div className="w-full lg:flex">
+      <div className="w-full lg:flex gap-[15px]">
         {/* first div  */}
-        <div className="basis-[49%] pl-[30px] pr-[30px]">
+        <div className="basis-[50%]">
           <div className="flex justify-center items-center">
-            <img src="assets/contact-form-pic-3.gif" alt="" loading="lazy" className="w-[70%]"/>
+            <img src="assets/contact-form-pic-4.jpg" alt="" loading="lazy" className="rounded-[15px]"/>
           </div>
         </div>
         {/* second div  */}
-        <div className="basis-[49%] pt-[30px] lg:pt-[0]">
+        <div className="basis-[49%] pt-[30px] lg:pt-[0] border-2 border-gray rounded-[15px]">
           <form className="md:max-w-md mx-auto">
             <h2 className="text-start sm:text-start md:text-center lg:text-center lg:m-auto text-primary-heading-color font-sora text-[30px] font-normal lg:width-[500px]">Require Instant Help? Our Professionals Are Available to Assist You Now.
             </h2>

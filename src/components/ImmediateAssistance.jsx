@@ -5,8 +5,8 @@ export default function ImmediateAssistance() {
       <div className="w-full lg:flex gap-[15px]">
         {/* first div  */}
         <div className="basis-[50%]">
-          <div className="flex justify-center items-center">
-            <img src="assets/contact-form-pic-4.jpg" alt="" loading="lazy" className="rounded-[15px]"/>
+          <div className="flex justify-center items-center h-[100%]">
+            <img src="assets/contact-form-pic-4.jpg" alt="" loading="lazy" className="rounded-[15px] h-[100%]"/>
           </div>
         </div>
         {/* second div  */}

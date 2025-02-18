@@ -284,13 +284,9 @@ export const allServicesContent = {
       "https://medipaybilling.com/wp-content/uploads/2024/09/Virtual-Assistance.jpg",
     content: ` 
                <div class="flex gap-4 items-start mb-10">
-                  <p class="font-bold text-[50px]">A</p>
+                  <p class="font-bold text-[50px]">W</p>
                   <p class="text-lg ">
-                    orem ipsum dolor sit amet consectetur adipisicing elit.
-                    Libero, voluptate assumenda? Ab amet veritatis laboriosam
-                    ipsa nisi! Accusantium odio ut doloremque! Enim cum rem
-                    repellendus eum commodi repellat veritatis! Quibusdam non
-                    cupiditate reiciendis reprehenderit!
+                    elcome to Medipay Billing, where we specialize in transforming your medical billing processes into streamlined, efficient operations. Our team of expert consultants is dedicated to working closely with healthcare providers to enhance billing success and financial performance. By integrating deeply into your practice, we identify key opportunities to minimize denials and expedite payments, ensuring your practice’s financial health is maximized.
                   </p>
                 </div>
 
@@ -568,7 +564,82 @@ export const allServicesContent = {
       {
         question: "What is medical credentialing?",
         answer:
-          "Medical credentialing is the process of verifying a healthcare provider's qualifications, including licenses, certifications, and training.",
+          `<div class="elementor-tab-content elementor-clearfix elementor-active" style="display:block;" id="elementor-tab-content-1791" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1791">
+    <p>
+        The required documents can vary depending on the specific insurance plan and practitioner type. Generally, you will need:
+    </p>
+    <ul>
+        <li>
+            <strong>Personal Documents:</strong>
+            <ul>
+                <li>
+                    Current CV (including recent employment history)
+                </li>
+                <li>
+                    DEA (federal) and state Controlled Dangerous Substances (CDS) certificates
+                </li>
+                <li>
+                    Malpractice Insurance (Certificate of Insurance)
+                </li>
+                <li>
+                    Current driver’s license
+                </li>
+                <li>
+                    Board Certification(s)
+                </li>
+                <li>
+                    Practitioner License(s)
+                </li>
+                <li>
+                    Diploma or highest level of education (for non-MDs and DOs)
+                </li>
+            </ul>
+        </li>
+        <li>
+            <strong>Additional Documents:</strong>
+            <ul>
+                <li>
+                    Collaborative Agreement (for Nurse Practitioners)
+                </li>
+                <li>
+                    ECFMG Certificate (for providers educated outside the US)
+                </li>
+                <li>
+                    Letter of Admitting Arrangement (if you lack hospital admitting privileges)
+                </li>
+                <li>
+                    Passport or citizenship documents (for non-US born providers not previously enrolled with Medipay Billing)
+                </li>
+                <li>
+                    Letter of Prescribing Arrangement (for physicians without a DEA certificate)
+                </li>
+            </ul>
+        </li>
+        <li>
+            <strong>Legal Entity Documents:</strong>
+            <ul>
+                <li>
+                    IRS Form CP575 or substitute letter 147C (EIN verification)
+                </li>
+                <li>
+                    IRS Form W-9
+                </li>
+                <li>
+                    CLIA Certificate
+                </li>
+                <li>
+                    Office lease copy (for therapy facilities)
+                </li>
+                <li>
+                    Business License
+                </li>
+                <li>
+                    Verification letter of bank account (for Medipay Billing enrollment)
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>`,
         isOpen: false,
       },
       {
@@ -649,7 +720,7 @@ export const allServicesContent = {
   "virtual-assistance": {
     title: "Virtual Assistance",
     image:
-      "https://medipaybilling.com/wp-content/uploads/2024/09/Virtual-Assistance.jpg",
+      "/assets/doctor-img-3.jpg",
     content: `<div>
 <span style="color: rgb(110, 119, 140); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(240, 247, 253)"><span style="font-size: 60px;">A</span>t Square Medix, we specialize in transforming the complexities of Revenue Cycle Management (RCM) into streamlined, efficient processes that enhance your financial performance. Our comprehensive RCM services are designed to optimize your revenue, reduce administrative burdens, and improve overall operational efficiency.</span>
 <br />
@@ -831,4 +902,235 @@ export const allBlogsContent = [
     </p>`,
     created_at: "September 14, 2024",
   },
+];
+export const allSpecialitiesContent = [
+  // {
+  //   image:'/speciality-icons/ABA Therapy.png',
+  //   title:'ABA Therapy',
+  //   content:'kldaklkldsssssssskldssssssssssssssssssss',
+  // },
+  {
+    image:'/speciality-icons/Cardiology.png',
+    title:'Cardiology',
+    content:'Square Medix streamlines cardiology billing, boosting revenue and reducing denials.',
+  },
+  {
+    image:'/speciality-icons/Anesthesia.png',
+    title:'Anesthesia',
+    content:'Medicure Healthcare streamlines anesthesiology billing, optimizing revenue and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Behavioral Health.png',
+    title:'Behavioral Health',
+    content:'Square Medix streamlines mental health billing, optimizing revenue and improving efficiency for behavioral health practices and therapists.',
+  },
+ 
+  {
+    image:'/speciality-icons/Chiropractor.png',
+    title:'Chiropractor',
+    content:'Square Medix streamlines chiropractic billing, optimizing revenue and improving patient satisfaction.',
+  },
+  {
+    image:'/speciality-icons/Dentistry.png',
+    title:'Dentistry',
+    content:'Square Medix streamlines dental billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Dermatology.png',
+    title:'Dermatology',
+    content:'Square Medix streamlines dermatology billing, optimizing revenue and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Emergency Medicine.png',
+    title:'Emergency Medicine',
+    content:'Square Medix streamlines emergency medicine billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Endocrinology.png',
+    title:'Testing',
+    content:'Square Medix streamlines endocrinology billing, ensuring accurate coding, timely claim submission, and minimizing denials to maximize reimbursements.',
+  },
+  {
+    image:'/speciality-icons/ENT.png',
+    title:'Ent',
+    content:'Square Medix is your one-stop solution for expert ENT billing services, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Family Medicine.png',
+    title:'Family Medicine',
+    content:'Square Medix offers specialized family medicine billing services designed to optimize revenue cycle management and improve efficiency for general practitioners.',
+  },
+  {
+    image:'/speciality-icons/Gastroenterology.png',
+    title:'Gastroenterology',
+    content:'Square Medix streamlines gastroenterology billing, ensuring accurate coding, timely claim submission, and maximizing reimbursements.',
+  },
+  {
+    image:'/speciality-icons/General Practice.png',
+    title:'General Practice',
+    content:'Square Medix streamlines general practice billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Geriatric.png',
+    title:'Geriatric',
+    content:'Square Medix offers specialized geriatric billing services designed to optimize revenue cycle management and improve efficiency in geriatric practices.',
+  },
+  {
+    image:'/speciality-icons/Hematology.png',
+    title:'Hematology',
+    content:'Square Medix streamlines hematology billing, optimizing revenue through automated claim scrubbing and enhanced efficiency.',
+  },
+  {
+    image:'/speciality-icons/Hepatology.png',
+    title:'Hepatology',
+    content:'Square Medix streamlines hepatology billing, optimizing revenue and improving cash flow.',
+  },
+  {
+    image:'/speciality-icons/Infectious Disease.png',
+    title:'Infectious Disease',
+    content:'Square Medix streamlines infectious disease billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Internal Medicine.png',
+    title:'Internal Medicine',
+    content:'Square Medix streamlines internal medicine billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Laboratory Billing.png',
+    title:'Laboratory Billing',
+    content:'Square Medix offers tailored pathology billing solutions designed to optimize revenue cycle management and improve efficiency.',
+  },
+  {
+    image:'/speciality-icons/Mental Health.png',
+    title:'Mental Health',
+    content:'Square Medix streamlines mental health billing, optimizing revenue and improving efficiency for behavioral health practices and therapists.',
+  },
+  {
+    image:'/speciality-icons/NEMT.png',
+    title:'NEMT',
+    content:'Square Medix offers specialized billing solutions for EMT and NEMT providers, optimizing revenue and improving financial performance.',
+  },
+  {
+    image:'/speciality-icons/Neonatology.png',
+    title:'Neonatology',
+    content:'Square Medix streamlines neonatology billing, ensuring accurate coding, timely claim submission, and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Neurology.png',
+    title:'Neurology',
+    content:'Square Medix streamlines neurology billing, ensuring accurate coding, timely claims submission, and maximum reimbursements.',
+  },
+  {
+    image:'/speciality-icons/Occupational Therapy.png',
+    title:'Occupational Therapy',
+    content:'Square Medix offers tailored medical billing solutions for occupational therapists, ensuring accurate coding, timely claim submission, and compliance with industry regulations.',
+  },
+  {
+    image:'/speciality-icons/Oncology.png',
+    title:'Oncology',
+    content:'Square Medix streamlines oncology billing, ensuring accurate coding, timely claim submission, and minimizing errors to maximize revenue and accelerate reimbursement.',
+  },
+  {
+    image:'/speciality-icons/Neonatology.png',
+    title:'Neonatology',
+    content:'Square Medix streamlines neonatology billing, ensuring accurate coding, timely claim submission, and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Oncology.png',
+    title:'Oncology',
+    content:'Square Medix streamlines oncology billing, ensuring accurate coding, timely claim submission, and minimizing errors to maximize revenue and accelerate reimbursement.',
+  },
+  {
+    image:'/speciality-icons/Ophthalmology.png',
+    title:'Ophthalmologist',
+    content:'Square Medix offers comprehensive ophthalmology billing services, optimizing revenue cycle management from patient intake to claim settlement.',
+  },
+  {
+    image:'/speciality-icons/Orthopedics.png',
+    title:'Orthopedics',
+    content:'Square Medix streamlines orthopedics billing, optimizing revenue and improving patient care.',
+  },
+  {
+    image:'/speciality-icons/Osteopathic.png',
+    title:'Osteopathic',
+    content:'Square Medix streamlines osteopathic billing, ensuring accurate coding, timely claim submission, and maximizing reimbursements while minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Otolaryngology.png',
+    title:'Otolaryngology',
+    content:'Square Medix streamlines otolaryngology billing, ensuring accurate coding, timely claims submission, and maximum reimbursements.',
+  },
+  {
+    image:'/speciality-icons/Pain Managment.png',
+    title:'Pain Management',
+    content:'Square Medix streamlines pain management billing, ensuring accurate coding, timely claim submission, and optimal reimbursements.',
+  },
+  {
+    image:'/speciality-icons/Pathologists.png',
+    title:'Pathologist',
+    content:'Square Medix offers tailored pathology billing solutions designed to meet the unique needs of each client, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Pediatrics.png',
+    title:'pediatrics',
+    content:'Square Medix offers specialized pediatric billing solutions designed to optimize revenue and improve efficiency in pediatric practices.',
+  },
+  {
+    image:'/speciality-icons/Physical Therapy.png',
+    title:'Physical Therapy',
+    content:'Square Medix enhances mobility, relieves pain, and restores function, promoting recovery and long-term health.',
+  },
+  {
+    image:'/speciality-icons/Physiotherapy.png',
+    title:'Physiotherapy',
+    content:'Square Medix streamlines physiotherapy billing, optimizing revenue and improving patient care.',
+  },
+  {
+    image:'/speciality-icons/Plastic Surgery.png',
+    title:'Plastic Sergery',
+    content:'Square Medix streamlines plastic surgery billing, optimizing revenue and improving efficiency.',
+  },
+  {
+    image:'/speciality-icons/Podiatry.png',
+    title:'Podiatry',
+    content:'Square Medix streamlines podiatry billing, optimizing revenue and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Psychiatry.png',
+    title:'psychiatry',
+    content:'Square Medix streamlines psychiatry billing, optimizing revenue and minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Radiology.png',
+    title:'Radiology',
+    content:'Square Medix streamlines radiology billing, ensuring accurate coding, timely claim submission, and minimizing errors to maximize revenue.',
+  },
+  {
+    image:'/speciality-icons/Speech Therapy.png',
+    title:'Otolaryngology',
+    content:'Square Medix offers tailored speech therapy billing solutions designed to optimize revenue cycle management and improve efficiency.',
+  },
+  // {
+  //   image:'/speciality-icons/Surgery.png',
+  //   title:'Surgery',
+  //   content:'Square Medix streamlines vascular surgery billing, ensuring accurate coding, timely claim submission, and maximizing reimbursements.',
+  // },
+  // {
+  //   image:'/speciality-icons/Urgent Care.png',
+  //   title:'Urgent Care',
+  //   content:'kldaklkldsssssssskldssssssssssssssssssss',
+  // },
+  {
+    image:'/speciality-icons/Urology.png',
+    title:'Urology',
+    content:'Square Medix offers specialized urology billing services, ensuring accurate coding, timely claim submission, and maximizing revenue while minimizing denials.',
+  },
+  {
+    image:'/speciality-icons/Vascular Surgery.png',
+    title:'Vascular Surgery',
+    content:'Square Medix streamlines vascular surgery billing, ensuring accurate coding, timely claim submission, and maximizing reimbursements.',
+  },
+  
+  
+  
 ];

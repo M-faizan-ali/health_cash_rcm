@@ -1,0 +1,9 @@
+1 internal medicine
+2 family medicine
+3 playsical therapy
+4 psychiatry
+5 Accupaional therapy
+6 speech therapy
+7 woundcare
+8 chiropractice
+

@@ -87,7 +87,7 @@ export default function RealMenu() {
             </div>
           </div>
           <div className="inline-block group relative cursor-pointer py-2 textblack">
-            <a className={`menu-hover ${textStyle}`} onClick="">
+            <a href="/specialities" className={`menu-hover ${textStyle}`} onClick="">
               Specialities
             </a>
 

@@ -14,7 +14,7 @@ const ServicePage = () => {
             <Link key={index} to={`/services/${service}`} className="w-full h-auto md:w-[48%] lg:w-[32%] md:h-[506px] lg:h-[559px] xl:h-[450px] rounded-[30px] overflow-hidden shadow-lg p-4">
               <div className=" ">
                 <img
-                  className="w-[90%] h-[200px] object-cover mx-auto my-4 rounded-[30px] hover:scale-105 transition-all duration-200 ease-out cursor-pointer"
+                  className="w-[90%] h-[200px] object-cover mx-auto my-4 rounded-[30px] hover:scale-105 transition-all duration-200 ease-out cursor-pointer "
                   src={allServicesContent[service]?.image}
                   alt=""
                 />

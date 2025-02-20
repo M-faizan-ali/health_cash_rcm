@@ -14,7 +14,9 @@ const BlogPage = () => {
 
   return (
     <>
-      <Navbar2 />
+      <Navbar2
+      customBackgroundImage="/assets/speciality-img-5.jpg"
+      customSpan="> blogs" />
       <div className="w-full bg-white">
         <div className="container px-10 mx-auto">
           <div className="flex flex-col lg:flex-row py-20">

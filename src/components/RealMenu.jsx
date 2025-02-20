@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import { allServicesContent } from "../constants";
 import { Link, useNavigate } from "react-router-dom";
 export default function RealMenu() {
-  const specialitiesList = [
-    "Dermatology",
-    "Oncology",
-    "Cardiology",
-    "Nephrology",
-    "Gynecology",
-    "Radiology",
-    "Physical",
-    "Therapy",
-    "Chiropractic",
-  ];
+  // const specialitiesList = [
+  //   "Dermatology",
+  //   "Oncology",
+  //   "Cardiology",
+  //   "Nephrology",
+  //   "Gynecology",
+  //   "Radiology",
+  //   "Physical",
+  //   "Therapy",
+  //   "Chiropractic",
+  // ];
 
   const navigate = useNavigate();
   const handleServiceClick = () => {
@@ -91,7 +91,7 @@ export default function RealMenu() {
               Specialities
             </a>
 
-            <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
+            {/* <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white shadow-xl group-hover:visible">
               {specialitiesList.map((speciality, index) => (
                 <a
                   key={index}
@@ -101,7 +101,7 @@ export default function RealMenu() {
                   {speciality}
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
           <Link to="/about" className={textStyle + " textblack"}>
             About Us

@@ -2,10 +2,14 @@ import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import RealMenu from "./RealMenu";
 
-export default function Navbar2() {
+export default function Navbar2({
+  customBackgroundImage,
+  customParagraph,
+  customSpan,
+}) {
   const [page, setPage] = useState("/");
   const [isSticky, setIsSticky] = useState(false);
-  const [backgroundImage, setBackgroundImage] = useState("/assets/banner-bg-image.jpg");
+  const [backgroundImage, setBackgroundImage] = useState(customBackgroundImage || "/assets/banner-bg-image.jpg");
   const heroRef = useRef(null);
 
   useEffect(() => {
@@ -41,10 +45,10 @@ export default function Navbar2() {
     const updateBackgroundImage = () => {
       if (window.innerWidth <= 640) {
         // Small screen (e.g., mobile)
-        setBackgroundImage("/assets/home-banner-img-sm.jpg");
+        setBackgroundImage(customBackgroundImage || "/assets/home-banner-img-sm.jpg");
       } else {
         // Larger screens
-        setBackgroundImage("/assets/banner-bg-image.jpg");
+        setBackgroundImage(customBackgroundImage || "/assets/banner-bg-image.jpg");
       }
     };
 
@@ -56,7 +60,7 @@ export default function Navbar2() {
 
     // Cleanup event listener on unmount
     return () => window.removeEventListener("resize", updateBackgroundImage);
-  }, []);
+  }, [customBackgroundImage]);
 
   return (
     <div ref={heroRef} className="relative">
@@ -81,17 +85,31 @@ export default function Navbar2() {
 
           {/* First Heading */}
           <h1 className="font-sora text-[26px] sm:text-[26px] md:text-[46px] xl:text-[65px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal p-0 w-[80%]">
-            {page === "/about"
+            {/* {page === "/about"
               ? "About Us"
               : page === "/contact"
               ? "Contact Us"
-              : "Empowering success with complete solutions."}
+              : "Empowering success with complete solutions."
+            } */}
+              {  
+                page === "/about"
+                ? "About Us"
+                : page === "/contact"
+                ? "Contact Us"
+                : page === "/services"
+                ? "Our Popular Services"
+                : page === "/specialities"
+                ? "Our Popular Speciality"
+                : page === "/blog"
+                ? "Blogs"
+                : "Empowering success with complete solutions."
+              }
           </h1>
 
           {page === "/" ? (
             <>
               <p className="font-roboto text-[14px] sm:text-[17px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal overflow-visible pt-[20px] h-auto border-t border-white/10 z-[11] align-top transform origin-center translate-x-0 translate-y-0 block bg-transparent w-[60%]">
-                Transform your practice with Square Medix – seamless, efficient, and patient-friendly billing solutions.
+                {customParagraph || "Transform your practice with Square Medix – seamless, efficient, and patient-friendly billing solutions."}
               </p>
 
               <Link
@@ -118,12 +136,12 @@ export default function Navbar2() {
           ) : page === "/about" ? (
             <p className="font-roboto text-[14px] sm:text-[17px] lg:text-[20px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal overflow-visible pt-[20px] w-auto h-auto border-t border-white/10 z-[11] align-top transform origin-center translate-x-0 translate-y-0 block bg-transparent">
               <Link to="/">Square Medix </Link>
-              <span className="">&gt; About Us</span>
+              <span className="">{customSpan || "> About Us"}</span>
             </p>
           ) : (
             <p className="font-roboto text-[14px] sm:text-[17px] lg:text-[20px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal overflow-visible pt-[20px] w-auto h-auto border-t border-white/10 z-[11] align-top transform origin-center translate-x-0 translate-y-0 block bg-transparent">
               <Link to="/">Square Medix </Link>
-              <span className="">&gt; Contact Us</span>
+              <span className="">{customSpan || "> Contact Us"}</span>
             </p>
           )}
         </div>

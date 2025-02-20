@@ -10,7 +10,11 @@ export default function ContactUs() {
 
   return (
     <>
-      <Navbar2 />
+      <Navbar2 
+              customBackgroundImage="/assets/speciality-img-5.jpg"
+              customParagraph="Welcome to our amazing service!"
+              customSpan="> contact us"
+            />
     
 
       <div className="mt-9 w-[90%] m-auto">

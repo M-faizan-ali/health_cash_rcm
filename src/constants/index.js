@@ -1061,7 +1061,7 @@ export const allSpecialitiesContent = [
     content:'Square Medix streamlines otolaryngology billing, ensuring accurate coding, timely claims submission, and maximum reimbursements.',
   },
   {
-    image:'/speciality-icons/Pain Managment.png',
+    image:'/speciality-icons/Pain Management.png',
     title:'Pain Management',
     content:'Square Medix streamlines pain management billing, ensuring accurate coding, timely claim submission, and optimal reimbursements.',
   },

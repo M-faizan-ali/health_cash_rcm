@@ -25,7 +25,10 @@ const Sidebar = () => {
 
   return (
     <>
-      <Navbar2 />
+      <Navbar2 
+              customBackgroundImage="/assets/speciality-img-5.jpg"
+              customSpan="> about us"
+            />
       <div className="w-[90%] m-auto">
         {/* sidebar  */}
         <div className="flex w-full mt-[100px] mb-[100px] gap-9">

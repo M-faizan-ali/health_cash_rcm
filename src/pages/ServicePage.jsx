@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 const ServicePage = () => {
   return (
     <>
-      <Navbar2 />
+      <Navbar2 
+              customBackgroundImage="/assets/speciality-img-5.jpg"
+              customSpan="> services"
+      />
 
       <div className="container mx-auto flex items-center justify-start flex-wrap gap-4 my-10">
         {Object.keys(allServicesContent).map((service, index) => (

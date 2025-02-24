@@ -1,6 +1,7 @@
 body {
   /* background-color: #f0f7fd; */
-  background-color: #D0D7E1;
+  /* background-color: #D0D7E1; */
+  background-color: #fff;
 }
 
 .image-container::before {

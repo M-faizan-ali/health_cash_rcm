@@ -10,6 +10,7 @@ import ServicePage from "./pages/ServicePage";
 import BlogPage from "./pages/BlogPage";
 import BlogInfo from "./pages/BlogInfo";
 import SpecialitiesPage from "./pages/SpecialitiesPage";
+import ServicesPage from "./pages/ServicesPage";
 export default function App() {
   return (
     <BrowserRouter>
@@ -19,11 +20,12 @@ export default function App() {
           <Route path={`/`} element={<Home />} />
           <Route path={`/contact`} element={<ContactUs />} />
           <Route path={`/about`} element={<SideBar />} />
-          <Route path={`/services`} element={<ServicePage />} />
-          <Route path={`/services/:servicename`} element={<ServiceInfo />} />
+          {/* <Route path={`/services`} element={<ServicePage />} /> */}
+          {/* <Route path={`/services/:servicename`} element={<ServiceInfo />} /> */}
           <Route path={`/blog`} element={<BlogPage />} />
           <Route path={`/blog/:slug`} element={<BlogInfo />} />
           <Route path={`/specialities`} element={<SpecialitiesPage />} />
+          <Route path={`/service`} element={<ServicesPage />} />
         </Routes>
       </Suspense>
       <Footer />

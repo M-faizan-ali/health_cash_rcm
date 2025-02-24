@@ -9,7 +9,9 @@ export default function Navbar2({
 }) {
   const [page, setPage] = useState("/");
   const [isSticky, setIsSticky] = useState(false);
-  const [backgroundImage, setBackgroundImage] = useState(customBackgroundImage || "/assets/banner-bg-image.jpg");
+  const [backgroundImage, setBackgroundImage] = useState(
+    customBackgroundImage || "/assets/banner-bg-image.jpg"
+  );
   const heroRef = useRef(null);
 
   useEffect(() => {
@@ -19,25 +21,39 @@ export default function Navbar2({
 
   // Handle sticky navigation
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsSticky(!entry.isIntersecting);
-      },
-      {
-        root: null,
-        threshold: 0.1,
-      }
-    );
+    const handleScroll = () => {
+      // Check if the screen width is lg or larger
+      if (window.innerWidth >= 1024) {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            setIsSticky(!entry.isIntersecting);
+          },
+          {
+            root: null,
+            threshold: 0.1,
+          }
+        );
 
-    if (heroRef.current) {
-      observer.observe(heroRef.current);
-    }
+        if (heroRef.current) {
+          observer.observe(heroRef.current);
+        }
 
-    return () => {
-      if (heroRef.current) {
-        observer.unobserve(heroRef.current);
+        return () => {
+          if (heroRef.current) {
+            observer.unobserve(heroRef.current);
+          }
+        };
+      } else {
+        setIsSticky(false); // Ensure it doesn't get sticky on smaller screens
       }
     };
+
+    // Call the function initially and add an event listener for window resize
+    handleScroll();
+    window.addEventListener("resize", handleScroll);
+
+    // Cleanup event listener on unmount
+    return () => window.removeEventListener("resize", handleScroll);
   }, []);
 
   // Handle background image change based on screen size
@@ -45,10 +61,14 @@ export default function Navbar2({
     const updateBackgroundImage = () => {
       if (window.innerWidth <= 640) {
         // Small screen (e.g., mobile)
-        setBackgroundImage(customBackgroundImage || "/assets/home-banner-img-sm.jpg");
+        setBackgroundImage(
+          customBackgroundImage || "/assets/home-banner-img-sm.jpg"
+        );
       } else {
         // Larger screens
-        setBackgroundImage(customBackgroundImage || "/assets/banner-bg-image.jpg");
+        setBackgroundImage(
+          customBackgroundImage || "/assets/banner-bg-image.jpg"
+        );
       }
     };
 
@@ -72,10 +92,16 @@ export default function Navbar2({
           backgroundPosition: "center",
         }}
       >
-        <div className={`px-4 ${isSticky && window.innerWidth > 640 ? "fixed w-full mx-auto top-0 z-50 bg-[#D0D7E1] text-white shadow-2xl sticky-nav" : ""}`}>
+        <div
+          className={`px-4 ${
+            isSticky && window.innerWidth >= 1024
+              ? "fixed w-full mx-auto top-0 z-50 bg-white text-white shadow-2xl sticky-nav"
+              : ""
+          }`}
+        >
           <RealMenu />
         </div>
- 
+
         <div className="pb-[100px] pl-9 mt-[80px] w-full">
           {page === "/" && (
             <button className="font-roboto text-[11px] font-normal text-white uppercase no-underline tracking-[1.1px] leading-[22px] text-left whitespace-nowrap px-[17px] py-[2px] border border-white rounded-full bg-transparent opacity-100 pointer-events-auto mb-[30px]">
@@ -85,31 +111,26 @@ export default function Navbar2({
 
           {/* First Heading */}
           <h1 className="font-sora text-[26px] sm:text-[26px] md:text-[46px] xl:text-[65px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal p-0 w-[80%]">
-            {/* {page === "/about"
+            {page === "/about"
               ? "About Us"
               : page === "/contact"
               ? "Contact Us"
-              : "Empowering success with complete solutions."
-            } */}
-              {  
-                page === "/about"
-                ? "About Us"
-                : page === "/contact"
-                ? "Contact Us"
-                : page === "/services"
-                ? "Our Popular Services"
-                : page === "/specialities"
-                ? "Our Popular Speciality"
-                : page === "/blog"
-                ? "Blogs"
-                : "Empowering success with complete solutions."
-              }
+              : page === "/services"
+              ? "Our Popular Services"
+              : page === "/service"
+              ? "Our Popular Services"
+              : page === "/specialities"
+              ? "Our Popular Speciality"
+              : page === "/blog"
+              ? "Blogs"
+              : "Empowering success with complete solutions."}
           </h1>
 
           {page === "/" ? (
             <>
               <p className="font-roboto text-[14px] sm:text-[17px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal overflow-visible pt-[20px] h-auto border-t border-white/10 z-[11] align-top transform origin-center translate-x-0 translate-y-0 block bg-transparent w-[60%]">
-                {customParagraph || "Transform your practice with Square Medix – seamless, efficient, and patient-friendly billing solutions."}
+                {customParagraph ||
+                  "Transform your practice with Square Medix – seamless, efficient, and patient-friendly billing solutions."}
               </p>
 
               <Link

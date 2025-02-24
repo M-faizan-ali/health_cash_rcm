@@ -16,7 +16,7 @@ export default function SpecialitiesPage() {
         className="bg-cover bg-center mt-[50px] mb-[50px]" 
         style={{ backgroundImage: 'url("/assets/speciality-img-2.jpg")' }}
       >
-        <div className='w-[90%] m-auto pt-[50px] pb-[50px] pl-5 pr-5'>
+        <div className='w-[90%] m-auto pt-[50px] pb-[50px] pl-5 pr-5 '>
           <h1 className='text-[50px] font-semibold'>
             Specialities
           </h1>
@@ -26,7 +26,7 @@ export default function SpecialitiesPage() {
         </div>
       </div>
       {/* second div  */}
-      <div className="p-5 grid grid-cols md:grid-cols-2 lg:grid-cols-5 gap-4 text-center">
+      <div className=" bg-[#EDF1FC] pt-[50px] pb-[50px] grid grid-cols md:grid-cols-2 lg:grid-cols-5 gap-4 text-center">
         {Object.keys(allSpecialitiesContent).map((speciality, index) => (
         <>
         <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center group hover:bg-primary-heading-color">

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <div className=" py-4 text-gray-400">
+        <div className=" py-4 bg-[#17224D] tex-white">
           <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
             <div className="w-full md:w-[33%]">
               <img
@@ -14,7 +14,7 @@ export default function Footer() {
                 alt="Animated GIF"
               />
 
-              <p className="">
+              <p className="text-[#f2f2f2]">
               At Square Medix, we are dedicated to providing end-to-end revenue cycle management solutions that streamline billing processes for healthcare providers, ensuring efficiency and accuracy at every step.{" "}
               </p>
               <div>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
 
             <div className="w-full md:w-[67%]">
-              <div className="my-5 text-[30px] text-primary-heading-color font-bold">
+              <div className="my-5 text-[30px]  font-bold text-[#f2f2f2]">
               Square Medix offers comprehensive revenue cycle management solutions that streamline billing, optimize reimbursement, and reduce financial complexities, enabling healthcare providers to focus on exceptional patient care.</div>
 
               <div className="flex flex-col sm:flex-row gap-6 ">
@@ -33,7 +33,7 @@ export default function Footer() {
                     <a
                       key={index}
                       href={`/services/${service}`}
-                      className="my-1 block py-1 font-semibold text-gray-500"
+                      className="my-1 block py-1 font-semibold text-[#f2f2f2]"
                     >
                       {allServicesContent[service]?.title}
                     </a>
@@ -42,26 +42,26 @@ export default function Footer() {
                 
                 <div>
                   <h2 className="text-[#3368c5] my-5">Working Time</h2>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     Mon - Fri: 9.00am - 5.00pm
                   </p>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     Saturday: 10.00am - 6.00pm
                   </p>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     Sunday Closed
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-[#3368c5] my-5"> How to Reach Us:</h2>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     Dublin - Ohio
                   </p>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     888-322-2702
                   </p>
-                  <p className="my-1 block py-1 font-semibold text-gray-500">
+                  <p className="my-1 block py-1 font-semibold text-[#f2f2f2]">
                     info@squaremedix.com
                   </p>
                 </div>

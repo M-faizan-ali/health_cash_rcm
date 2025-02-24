@@ -917,7 +917,7 @@ export const allSpecialitiesContent = [
   {
     image:'/speciality-icons/Anesthesia.png',
     title:'Anesthesia',
-    content:'Medicure Healthcare streamlines anesthesiology billing, optimizing revenue and minimizing denials.',
+    content:'Square Medixstreamlines anesthesiology billing, optimizing revenue and minimizing denials.',
   },
   {
     image:'/speciality-icons/Behavioral Health.png',
@@ -1134,3 +1134,129 @@ export const allSpecialitiesContent = [
   
   
 ];
+
+export const servicesMainCards = [
+  {
+    title: 'In-Depth Billing Analysis and Reporting',
+    content: [
+      'RVU Assessment for Medical Service Valuation',
+      'Optimizing Revenue Collection by Addressing Billing Issues',
+      'Real-Time Access to Up-to-Date Billing Reports',
+      'In-Depth Billing Reports',
+    ],
+  },
+  {
+    title: 'Customized Service Level Agreements',
+    content: [
+      'Optimizing Payment Posting for Strong Cash Flow',
+      'Accurate Charge Capture for Service Payments',
+      'Efficiently Addressing Claim Disputes',
+      'Customized SLA Reports for Specialized Services',
+      'Tracking Outstanding Payments'
+    ],
+  },
+  {
+    title: 'Preventing Revenue Loss',
+    content: [
+      'Troubleshooting Billing Issues',
+      'Precise Coding of Medical Records',
+      'Evaluating Coding Performance',
+      'Assessing Medical Record Accuracy',
+    ],
+  },
+  {
+    title: 'Leading Medical Billing Experts',
+    content: [
+      'Advanced Systems for Efficient Claim Handling',
+      'Round-the-Clock Physician Support for Billing Inquiries',
+      'Accurate Patient Billing and Coding',
+    ],
+  },
+  {
+    title: 'Maximizing Reimbursement Rates',
+
+    content: [
+      'Discovering Patterns in Medical Claims',
+      'Tracking Claim Status from Submission to Payment',
+      'Applying Modern Analytics Tools for Medical Billing',
+      'Appealing Incorrectly Denied Claims',
+      'Maintaining Open Communication with Providers'
+    ],
+  },
+  {
+    title: 'Expert Billing Support for Your Medical Specialty',
+    content: [
+      'Keeping Abreast of Healthcare Regulatory Updates',
+      'Tailored Services for Small and Medium-Sized Practices',
+      'Improving Financial Performance with Comprehensive Services',
+      'Providing Billing Solutions for All Medical Fields',
+    ],
+  }
+];
+
+export const servicesMainCardsPart2=[
+  {
+    title:'Square Medix Billing Solutions',
+    content: 'Maximize Medicare Reimbursements with Square Medix. Our expert consultants simplify the complexities of Medicare billing, tailoring solutions to your practice’s unique needs. Let us guide you towards financial success.'
+  },
+  {
+    title:'Network Enrollment Consulting',
+    content: 'Square Medix streamlines provider enrollment, helping you join insurance networks and secure favorable contracts. Our expert guidance ensures sustainable growth and optimal patient care.'
+  },
+  {
+    title:'Reimbursement Claim Filing Assistance',
+    content: 'Square Medix streamlines CMS billing, maximizing reimbursements through expert guidance and optimized paperwork.'
+  },
+  {
+    title:'Streamlining EHR Integration Processes',
+    content: 'Square Medix is your trusted partner for expert EHR implementation. Our 24/7 medical billing consultants provide guidance on system selection, data migration, and workflow redesign to ensure a seamless transition to electronic billing.'
+  },
+];
+
+export const servicesLastCards=[
+  {
+    img:'/services-icons/dashboard-1.png',
+    title:'KPI Dashboard',
+    desc:'Gain valuable insights into your practice’s performance with detailed reporting on key performance indicators, including copays collected and accounts receivable per payer.'
+  },
+  {
+    img:'/services-icons/monitering-2.png',
+    title:'Revenue Monitoring',
+    desc:'Monitor your practice’s revenue closely by tracking patient and insurance payments, identifying trends, and analyzing your financial progress.'
+  },
+  {
+    img:'/services-icons/balance-3.png',
+    title:'Patient Balancing',
+    desc:'Send timely reminders to patients with overdue payments to reduce outstanding balances and improve your practice’s cash flow.'
+  },
+  {
+    img:'/services-icons/svgexport-17.png',
+    title:'Automated Validation',
+    desc:'Verify patient insurance benefits at check-in to avoid unexpected charges. Collect copays upfront for a smoother billing experience.'
+  },
+  {
+    img:'/services-icons/svgexport-18.png',
+    title:'Performance Metrics',
+    desc:'Gain a clear understanding of your practice’s financial health and develop strategies to improve performance on a larger scale.'
+  },
+  {
+    img:'/services-icons/svgexport-19.png',
+    title:'Bills Collection',
+    desc:'Access detailed summaries of your medical bills, including their status. Our experts will proactively follow up on claims and provide immediate support for any billing issues.'
+  },
+  {
+    img:'/services-icons/svgexport-20.png',
+    title:'AI Workflow',
+    desc:'Our AI-powered billing rules engine automatically identifies and corrects errors in medical claims, leading to faster payments and increased revenue.'
+  },
+  {
+    img:'/services-icons/svgexport-21.png',
+    title:'Intelligent Billing',
+    desc:'Our intelligent billing system ensures accurate and compliant superbills by using well-defined charge coding, eliminating the risk of upcoding or downcoding.'
+  },
+  {
+    img:'/services-icons/svgexport-13.png',
+    title:'Compliance Driven',
+    desc:'Our AI-powered algorithms automatically recommend the appropriate E&M level, reducing the need for a separate coder. By identifying and preventing medical fraud, we ensure accurate billing and minimize compliance risks.'
+  }
+]

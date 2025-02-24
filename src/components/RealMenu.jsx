@@ -67,14 +67,14 @@ export default function RealMenu() {
             Home
           </Link>
           <div className="inline-block group relative cursor-pointer py-2">
-            <a
+            <a href="service"
               className={`menu-hover ${textStyle} textblack`}
-              onClick={handleServiceClick}
+              // onClick={handleServiceClick}
             >
               Services
             </a>
 
-            <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white  shadow-xl group-hover:visible">
+            {/* <div className="invisible absolute z-50 flex w-[300px] flex-col py-1 mt-2 px-4 bg-white  shadow-xl group-hover:visible">
               {Object.keys(allServicesContent).map((service, index) => (
                 <a
                   key={index}
@@ -84,7 +84,7 @@ export default function RealMenu() {
                   {allServicesContent[service]?.title}
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
           <div className="inline-block group relative cursor-pointer py-2 textblack">
             <a href="/specialities" className={`menu-hover ${textStyle}`} onClick="">

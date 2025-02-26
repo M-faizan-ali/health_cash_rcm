@@ -120,7 +120,7 @@ export default function Navbar2({
               : page === "/service"
               ? "Our Popular Services"
               : page === "/specialities"
-              ? "Our Popular Speciality"
+              ? "Our Popular Specialities"
               : page === "/blog"
               ? "Blogs"
               : "Empowering success with complete solutions."}

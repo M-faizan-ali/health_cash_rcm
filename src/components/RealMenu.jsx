@@ -2,22 +2,10 @@ import React, { useState } from "react";
 import { allServicesContent } from "../constants";
 import { Link, useNavigate } from "react-router-dom";
 export default function RealMenu() {
-  // const specialitiesList = [
-  //   "Dermatology",
-  //   "Oncology",
-  //   "Cardiology",
-  //   "Nephrology",
-  //   "Gynecology",
-  //   "Radiology",
-  //   "Physical",
-  //   "Therapy",
-  //   "Chiropractic",
-  // ];
-
   const navigate = useNavigate();
-  const handleServiceClick = () => {
-    navigate("/services");
-  };
+  // const handleServiceClick = () => {
+  //   navigate("/services");
+  // };
   const handleMakeAppointmentClick=()=>{
     navigate("/contact")
   };
@@ -103,15 +91,15 @@ export default function RealMenu() {
               ))}
             </div> */}
           </div>
-          <Link to="/about" className={textStyle + " textblack"}>
+          <a href="/about" className={textStyle + " textblack"}>
             About Us
-          </Link>
-          <a href="/blog" className={textStyle + " textblack"}>
+          </a>
+          <a href="#" className={textStyle + " textblack"}>
             Blog
           </a>
-          <Link to="/contact" className={textStyle + " textblack"}>
+          <a href="/contact" className={textStyle + " textblack"}>
             Contact Us
-          </Link>
+          </a>
         </div>
 
         <div className="sm:hidden lg:block"> 

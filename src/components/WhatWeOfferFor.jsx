@@ -4,7 +4,7 @@ import "../App.css";
 export default function WhatWeOfferFor() {
   return (
     <div
-      className="relative bg-no-repeat bg-top-center bg-bg-color py-[100px] px-0"
+      className="relative bg-no-repeat bg-top-center bg-g-blue py-[100px] px-0"
     >
       <div className="text-center mb-[15px]">
         <h4 className="font-sora uppercase inline-block px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color text-center font-semibold text-[12px]">

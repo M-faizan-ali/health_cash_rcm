@@ -23,7 +23,7 @@ export default function BillingSolutions() {
 
   return (
     <div
-      className="relative  bg-no-repeat bg-top-center  bg-bg-color py-[100px] px-0 mt-[100px]"
+      className="relative  bg-no-repeat bg-top-center  bg-g-blue py-[100px] px-0 mt-[100px]"
     >
       <div className="w-[90%] m-auto text-justify">
         <div className="text-center mb-9">
@@ -51,7 +51,7 @@ export default function BillingSolutions() {
               Unlock the power of Square Medix comprehensive, specialty-specific billing solutions. Our experienced team expertly manages every step of your billing process— from seamless claims submission to efficient denial resolution—ensuring accuracy, compliance, and timely reimbursement to optimize your practice’s revenue.
               </p>
               <div className="book-consultation">
-                <button onClick={handleBookConsultation} className="flex items-center px-8 py-4 bg-primary-heading-color text-white rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all">
+                <button onClick={handleBookConsultation} className="flex items-center px-8 py-4 bg-white rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all">
                   Book consultation
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -3,6 +3,7 @@ import { FiArrowRight } from "react-icons/fi";
 import ImmediateAssistance from "./ImmediateAssistance";
 import Navbar2 from "./Navbar2";
 import HealthCare from "./HealthCare";
+import AboutSquareMedix from "./AboutSquareMedix"
 
 const Sidebar = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -21,7 +22,7 @@ const Sidebar = () => {
     {
       name: "Why Choose Us?",
       content: (
-        <ul className="list-disc ml-5">
+        <ul className="list-disc ml-5 flex flex-col justify-between h-full">
           <li>
             Proven Expertise: Our team has in-depth knowledge of revenue cycle
             management and stays updated with the latest industry standards,
@@ -61,11 +62,12 @@ const Sidebar = () => {
         customBackgroundImage="/assets/speciality-img-5.jpg"
         customSpan="> about us"
       />
+      <AboutSquareMedix />
       <div className="sm:w-full lg:w-[90%] m-auto">
         {/* Sidebar */}
         <div className="flex flex-col lg:flex-row w-full mt-[100px] mb-[100px] gap-9">
           {/* Sidebar menu */}
-          <div className="w-full lg:w-1/3 bg-white rounded-[15px] p-9 lg:shadow-lg ">
+          <div className="w-full lg:w-1/3 border border-gray-200 bg-white rounded-[15px] p-9 lg:shadow-lg ">
             <ul>
               {menuItems.map((item, index) => (
                 <li key={index} className="mb-4">
@@ -100,7 +102,7 @@ const Sidebar = () => {
 
           {/* Content Area for larger screens */}
           <div className="w-full lg:w-3/4 p-6 bg-transparent border border-gray-200 rounded-[15px] shadow-lg hidden lg:flex justify-center items-center">
-            <h1>{activeIndex !== null ? menuItems[activeIndex].content : menuItems[0].content}</h1>
+            <h1 className="h-[100%] flex items-center p-5">{activeIndex !== null ? menuItems[activeIndex].content : menuItems[0].content}</h1>
           </div>
         </div>
         {/* Immediate Assistance Form */}

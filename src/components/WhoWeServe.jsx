@@ -13,7 +13,7 @@ export default function WhoWeServe() {
       </h2>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-[25px] max-w-[1140px]">
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             Healthcare<span className="block">system</span>
           </h2>
@@ -34,7 +34,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             <span>Hospitals</span>
           </h2>
@@ -55,7 +55,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             Urgent<span className="block">Care</span>
           </h2>
@@ -76,7 +76,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             Private<span className="block">Practices</span>
           </h2>
@@ -97,7 +97,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             Emergency<span className="block">Rooms</span>
           </h2>
@@ -117,7 +117,7 @@ export default function WhoWeServe() {
             ></i>
           </div>
         </div>
-        <div className=" bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
+        <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             All<span className="block">Specialities</span>
           </h2>

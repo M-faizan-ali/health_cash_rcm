@@ -23,7 +23,7 @@ const Home = () => {
       <WhyChooseUs />
       <BillingSolutions />
       <TrustedLeaders />
-      <Testomonials />
+      {/* <Testomonials /> */}
       <CompanyNameSlider />
       <TailoredForEverySpecialty />
       <PostArticles />

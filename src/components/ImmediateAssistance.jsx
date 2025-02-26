@@ -4,7 +4,7 @@ export default function ImmediateAssistance() {
     <div className="max-w-[1080px] mb-[50px] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-12 border">
         {/* Contact Information Section */}
-        <div className="bg-gray-900 md:col-span-4 p-10 text-white">
+        <div className="bg-gray-800 md:col-span-4 p-10 text-white">
           <p className="mt-4 text-sm leading-7 font-regular uppercase">Contact</p>
           <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
             Get In <span className="text-indigo-600">Touch</span>

@@ -25,7 +25,7 @@ export default function BillingSolutions() {
     <div
       className="relative  bg-no-repeat bg-top-center  bg-g-blue py-[100px] px-0 mt-[100px]"
     >
-      <div className="w-[90%] m-auto text-justify">
+      <div className="sm:w-full lg:w-[1140px] m-auto text-justify">
         <div className="text-center mb-9">
           <h3 className="font-sora text-[40px] leading-[50px] tracking-normal text-white font-semibold ">
             Billing Solutions For all{" "}
@@ -47,11 +47,11 @@ export default function BillingSolutions() {
         <div className="flex flex-col sm:flex-col lg:flex-row">
           <div className="sm:w-[100%] lg:w-[50%]">
             <div className="h-full flex flex-col justify-center">
-              <p className="mb-[25px] text-white">
-              Unlock the power of Square Medix comprehensive, specialty-specific billing solutions. Our experienced team expertly manages every step of your billing process— from seamless claims submission to efficient denial resolution—ensuring accuracy, compliance, and timely reimbursement to optimize your practice’s revenue.
+            <p className="mb-[25px] text-white p-2 ">
+            Unlock the power of Square Medix comprehensive, specialty-specific billing solutions. Our experienced team expertly manages every step of your billing process— from seamless claims submission to efficient denial resolution—ensuring accuracy, compliance, and timely reimbursement to optimize your practice’s revenue.
               </p>
               <div className="book-consultation">
-                <button onClick={handleBookConsultation} className="flex items-center px-8 py-4 bg-white rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all">
+                <button onClick={handleBookConsultation} className="flex items-center px-8 py-4 bg-white rounded-full font-bold uppercase text-xs leading-6 tracking-wider transition-all m-2">
                   Book consultation
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

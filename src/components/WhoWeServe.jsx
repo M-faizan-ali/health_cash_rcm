@@ -1,7 +1,7 @@
 export default function WhoWeServe() {
   const serveDiv = {};
   return (
-    <div className="pt-[100px] max-w-[1140px] mx-auto pb-[100px]">
+    <div className="2xl:max-w-[1140px] pt-[100px] p-5 mx-auto pb-[100px]">
       <div className="text-center mb-[15px]">
         <h4 className="font-sora uppercase inline-block px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color text-center font-semibold text-[12px]">
           Who We Serve
@@ -12,7 +12,7 @@ export default function WhoWeServe() {
       Discover our comprehensive network of trusted healthcare providers.{" "}
       </h2>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-[25px] max-w-[1140px]">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 md:gap-[25px] 2xl:gap[50px] max-w-[100%]">
         <div className="border border-gray-200 bg-white rounded-[15px] relative py-[30px] px-[20px] transform transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <h2 className="font-sans font-[600] text-primary-heading-color normal-case">
             Healthcare<span className="block">system</span>

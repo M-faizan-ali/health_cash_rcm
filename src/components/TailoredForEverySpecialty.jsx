@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function TailoredForEverySpecialty() {
   return (
-    <div className="w-full flex justify-center">
-        <div className="w-[90%] grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
+    <div className="sm:w-full lg:w-[1140px] m-auto flex justify-center">
+        <div className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
           <div 
             className=" bg-cover bg-center rounded-[15px]"
             style={{ 

@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link,useLocation } from "react-router-dom";
 import RealMenu from "./RealMenu";
 
 export default function Navbar2({
@@ -84,8 +84,12 @@ export default function Navbar2({
 
   return (
     <div ref={heroRef} className="relative">
-      <div
-        className="mb-[15px] sm:w-[100%] sm:rounded-none xl:w-[100%] m-auto xl:rounded-[15px]"
+ <div
+        className={`mb-[15px] sm:w-[100%] sm:rounded-none xl:w-[100%] m-auto xl:rounded-[15px] ${
+          page === "/"
+            ? "sm:h-[500px] md:h-[700px] lg:h-[700px] 2xl:h-[1000px]"
+            : ""
+        }`}
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",

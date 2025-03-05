@@ -46,7 +46,7 @@ export default function NumberPercentage() {
   const iconStyle =
     "font-flaticon font-normal leading-custom text-custom text-[#2e3482]";
     return (
-      <div className="mt-[50px] mb-[50px]" ref={ref} data-aos="fade-up">
+      <div className="max-w-[1140px] m-auto mt-[50px] mb-[50px]" ref={ref} data-aos="fade-up">
         <div className="md:flex justify-between sm:flex-col md:flex-row">
           <div className="flex-1 text-center p-4">
             <p style={paragraphStyles}>

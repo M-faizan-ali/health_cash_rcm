@@ -6,7 +6,7 @@ import HealthCare from "./HealthCare";
 import AboutSquareMedix from "./AboutSquareMedix"
 
 const Sidebar = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const menuItems = [
     {

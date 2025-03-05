@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 import { Autoplay } from "swiper/modules"; 
 export default function CompanyNameSlider() {
   return (
-    <div className="w-[90%] m-auto mt-[50px] mb-[100px]" id="facilities">
+    <div className="w-[1140px] m-auto mt-[50px] mb-[100px]" id="facilities">
       <Swiper
         spaceBetween={20} 
         slidesPerView={1} 

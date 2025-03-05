@@ -1,8 +1,8 @@
 import React from "react";
 export default function ImmediateAssistance() {
   return (
-    <div className="max-w-[1080px] mb-[50px] mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-12 border">
+    <div className="max-w-[1140px] mb-[50px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-12 border rounded-xl">
         {/* Contact Information Section */}
         <div className="bg-gray-800 md:col-span-4 p-10 text-white">
           <p className="mt-4 text-sm leading-7 font-regular uppercase">Contact</p>
@@ -160,7 +160,7 @@ export default function ImmediateAssistance() {
             </div>
             <div className="flex justify-between w-full px-3">
               <button
-                className="shadow bg-[#17224D] hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                className="shadow bg-[#17224D] hover:bg-[#2A3A6A] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
                 type="submit"
               >
                 Send Message

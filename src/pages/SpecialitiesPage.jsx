@@ -26,10 +26,10 @@ export default function SpecialitiesPage() {
         </div>
       </div>
       {/* second div  */}
-      <div className=" bg-[#EDF1FC] pt-[50px] pb-[50px] grid grid-cols md:grid-cols-2 lg:grid-cols-5 gap-4 text-center">
+      <div className="p-5 bg-[#EDF1FC] pt-[50px] pb-[50px] grid grid-cols md:grid-cols-2 lg:grid-cols-5 gap-4 text-center">
         {Object.keys(allSpecialitiesContent).map((speciality, index) => (
         <>
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center group hover:bg-primary-heading-color">
+        <div class=" p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center group hover:bg-primary-heading-color">
           <img
             className="w-[70px] h-[70px] group-hover:filter group-hover:invert group-hover:brightness-0"
             src={allSpecialitiesContent[speciality]?.image}

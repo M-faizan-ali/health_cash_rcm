@@ -51,9 +51,9 @@ export default function RealMenu() {
         }`}
       >
         <div className="text-sm lg:flex-grow textblack">
-          <Link to="/" className={textStyle}>
+          <a href="/" className={textStyle}>
             Home
-          </Link>
+          </a>
           <div className="inline-block group relative cursor-pointer py-2">
             <a href="service"
               className={`menu-hover ${textStyle} textblack`}

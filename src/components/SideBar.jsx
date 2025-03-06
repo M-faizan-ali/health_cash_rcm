@@ -63,7 +63,7 @@ const Sidebar = () => {
         customSpan="> about us"
       />
       <AboutSquareMedix />
-      <div className="sm:w-full lg:w-[90%] m-auto">
+      <div className="sm:w-full  lg:max-w-[1140px] m-auto">
         {/* Sidebar */}
         <div className="flex flex-col lg:flex-row w-full mt-[100px] mb-[100px] gap-9">
           {/* Sidebar menu */}

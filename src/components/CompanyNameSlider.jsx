@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 import { Autoplay } from "swiper/modules"; 
 export default function CompanyNameSlider() {
   return (
-    <div className="w-[1140px] m-auto mt-[50px] mb-[100px]" id="facilities">
+    <div className="sm:w-full lg:w-[1140px] m-auto mt-[50px] mb-[100px]" id="facilities">
       <Swiper
         spaceBetween={20} 
         slidesPerView={1} 
@@ -33,221 +33,221 @@ export default function CompanyNameSlider() {
              >
        
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 29.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 30.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 31.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 32.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 33.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 34.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 35.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 36.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 37.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 38.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 39.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 40.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 41.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 42.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 43.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 44.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 45.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 46.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 47.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 48.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 49.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className="flex justify-center">
             <img
               src="assets/asset 50.png"
               alt=""
-              className="h-[120px]"
+              className="sm:h-[250px] sm:w-[400px] md:h-[120px] md:w-auto"
               loading="lazy"
             />
           </div>

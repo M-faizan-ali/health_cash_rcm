@@ -8,7 +8,7 @@ export default function AboutSquareMedix() {
   };
 
   return (
-    <div className=" mx-auto flex flex-wrap gap-[50px] lg:flex-nowrap lg:mt-[100px]">
+    <div className="lg:w-[1140px] mx-auto flex flex-wrap gap-[50px] lg:flex-nowrap lg:mt-[100px]">
       <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
         <img
           src="/assets/asset 25.jpeg"

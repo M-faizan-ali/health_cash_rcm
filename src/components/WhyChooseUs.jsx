@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
               <div className="p-[15px] border-2 border-dashed border-[#64A7E6] rounded-full">
                 <img
                   className=" rounded-full"
-                  src="assets/asset 18.jpeg"
+                  src="assets/doctor-image-6.jpg"
                   alt=""
                   loading="lazy"
                 />

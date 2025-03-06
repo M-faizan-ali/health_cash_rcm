@@ -61,7 +61,7 @@ export default function HealthCare() {
             <div style={headingStyle}>Management for</div>
             <div style={headingStyle}>Healthcare</div>
             <div style={headingStyle}>Providers</div>
-            <p className="font-[28px] text-p-color text-justify pt-[30px] font-roboto sm:p-[15px] lg:p-1 2xl:w-[50%] p-2">
+            <p className="font-[28px] text-p-color text-justify pt-[30px] font-roboto sm:p-[15px] lg:p-1  p-2">
             At Square Medix, we specialize in providing end-to-end revenue cycle management solutions that streamline billing for healthcare providers. Leveraging our industry expertise, we enable medical practices to enhance financial performance and ensure seamless payment processes. Our commitment to excellence drives efficiency, helping practices focus on what matters most—patient care.
             </p>
             <a href="/about">

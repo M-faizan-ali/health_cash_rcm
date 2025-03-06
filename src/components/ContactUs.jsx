@@ -17,7 +17,7 @@ export default function ContactUs() {
             />
     
 
-      <div className="mt-9 w-[90%] m-auto">
+      <div className="mt-9 lg:max-w-[1140px] p-5">
         {/* first div  */}
         <div>
           <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">
@@ -38,7 +38,7 @@ export default function ContactUs() {
         </div>
 
         {/* 3rd div  */}
-        <div className="flex justify-between flex-col md:flex-row p-6 gap-3">
+        <div className="flex justify-between flex-col md:flex-row p-6 gap-3 sm:gap-9">
           {/* First Column: Call */}
           <div className="flex items-center space-x-4">
             <div className="flex-shrink-0">
@@ -71,10 +71,10 @@ export default function ContactUs() {
         </div>
 
         {/* 4th div  */}
-        {/* <div>
+        <div className="mb-5 sm:text-[24px]">
           <h2 className={HeadingText}>Get Instant Assistance from Our Experts
           </h2>
-        </div> */}
+        </div>
 
         {/* <Footer/> */}
         <ImmediateAssistance/>

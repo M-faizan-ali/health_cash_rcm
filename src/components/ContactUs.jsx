@@ -17,7 +17,7 @@ export default function ContactUs() {
             />
     
 
-      <div className="mt-9 lg:max-w-[1140px] p-5">
+      <div className="mt-9 lg:max-w-[1140px] m-auto p-5">
         {/* first div  */}
         <div>
           <h4 className="uppercase inline px-[23px] py-[3px] rounded-[30px] bg-white text-btn-color">

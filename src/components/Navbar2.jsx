@@ -85,11 +85,7 @@ export default function Navbar2({
   return (
     <div ref={heroRef} className="relative">
  <div
-        className={`mb-[15px] sm:w-[100%] sm:rounded-none xl:w-[100%] m-auto xl:rounded-[15px] ${
-          page === "/"
-            ? "sm:h-[500px] md:h-[700px] lg:h-[700px] 2xl:h-[1000px]"
-            : ""
-        }`}
+        className="mb-[15px] sm:w-[100%] sm:rounded-none xl:w-[100%] m-auto xl:rounded-[15px]"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
@@ -106,15 +102,15 @@ export default function Navbar2({
           <RealMenu />
         </div>
 
-        <div className="pb-[100px] pl-9 mt-[80px] w-full">
+        <div className="pb-[100px] pl-9 mt-[80px] w-full 2xl:w-[70%]  2xl:pl-[5%] 2xl:mt-[200px]">
           {page === "/" && (
-            <button className="font-roboto text-[11px] font-normal text-white uppercase no-underline tracking-[1.1px] leading-[22px] text-left whitespace-nowrap px-[17px] py-[2px] border border-white rounded-full bg-transparent opacity-100 pointer-events-auto mb-[30px]">
+            <button className="font-roboto text-[11px] font-normal text-white uppercase no-underline tracking-[1.1px] leading-[22px] text-left whitespace-nowrap px-[17px] py-[2px]  border border-white rounded-full bg-transparent opacity-100 pointer-events-auto mb-[30px] 2xl:px-[25px] ">
               Square Medix
             </button>
           )}
 
           {/* First Heading */}
-          <h1 className="font-sora text-[26px] sm:text-[26px] md:text-[46px] xl:text-[65px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal p-0 w-[80%]">
+          <h1 className="font-sora text-[26px] 2xl:text-[60px] sm:text-[26px] md:text-[46px] xl:text-[65px] font-normal text-white tracking-[0px] leading-tight text-left whitespace-normal p-0 w-[80%]">
             {page === "/about"
               ? "About Us"
               : page === "/contact"
@@ -139,7 +135,7 @@ export default function Navbar2({
 
               <Link
                 to="/contact"
-                className="inline-block font-sora text-[11px] font-medium text-[#031b4e] uppercase tracking-[0px] leading-[33px] text-left whitespace-nowrap overflow-visible px-[32px] py-[11px] min-h-0 w-auto h-auto z-[12] rounded-[30px] align-top transform origin-center translate-x-0 translate-y-0 block left-[27.7192px] top-[608.193px] visible opacity-100 pointer-events-auto border-none bg-white mt-[30px] hover:bg-primary-heading-color hover:text-white"
+                className="inline-block font-sora text-[11px] font-medium text-[#031b4e] uppercase tracking-[0px] leading-[33px] text-left whitespace-nowrap overflow-visible px-[32px] py-[11px] min-h-0 w-auto h-auto z-[12] rounded-[30px] align-top transform origin-center translate-x-0 translate-y-0 block left-[27.7192px] top-[608.193px] visible opacity-100 pointer-events-auto border-none bg-white mt-[30px] hover:bg-primary-heading-color hover:text-white 2xl:mt-[100px] 2xl:mb-[300px]"
               >
                 Contact Us
                 <svg

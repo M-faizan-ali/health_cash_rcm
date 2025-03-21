@@ -11,11 +11,13 @@ import ImmediateAssistance from "../components/ImmediateAssistance";
 import Navbar2 from "../components/Navbar2";
 import TailoredForEverySpecialty from "../components/TailoredForEverySpecialty";
 import PostArticles from "../components/PostArticles";
+import BannerVideo from "../components/BannerVideo";
 
 const Home = () => {
   return (
     <>
       <Navbar2 />
+      <BannerVideo/>
       <NumberPercentage />
       <HealthCare />
       <WhoWeServe />

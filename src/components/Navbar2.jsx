@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { Link,useLocation } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import RealMenu from "./RealMenu";
 
 export default function Navbar2({
@@ -95,7 +95,7 @@ export default function Navbar2({
         <div
           className={`px-4 ${
             isSticky && window.innerWidth >= 1024
-              ? "fixed w-full mx-auto top-0 z-50 bg-white text-white shadow-2xl sticky-nav"
+              ? " w-full mx-auto top-0 z-50 bg-white text-white shadow-2xl sticky-nav"
               : ""
           }`}
         >

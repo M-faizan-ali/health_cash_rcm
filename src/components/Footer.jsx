@@ -7,7 +7,7 @@ export default function Footer() {
       <footer>
         <div className=" py-4 bg-[#17224D] tex-white">
           <div className="container px-4 mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
-            <div className="w-full md:w-[33%]">
+            {/* <div className="w-full md:w-[33%]">
               <img
                 className="w-full h-auto my-5"
                 src="https://medipaybilling.com/wp-content/uploads/2024/09/Untitled-design-1.gif"
@@ -20,9 +20,9 @@ export default function Footer() {
               <div>
                 <img src="" alt="" />
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full md:w-[67%]">
+            <div className="w-full md:w-[100%]">
               <div className="my-5 text-[30px]  font-bold text-[#f2f2f2]">
               Square Medix offers comprehensive revenue cycle management solutions that streamline billing, optimize reimbursement, and reduce financial complexities, enabling healthcare providers to focus on exceptional patient care.</div>
 

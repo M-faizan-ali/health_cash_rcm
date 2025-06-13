@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { allServicesContent } from "../constants";
+import  { useState } from "react";
+// import { allServicesContent } from "../constants";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function RealMenu() {
@@ -16,7 +16,7 @@ export default function RealMenu() {
   return (
     <nav className="flex items-center justify-between flex-wrap z-50 w-full">
       <div className="flex items-center flex-shrink-0 text-white textblack mr-6">
-        <img src="/assets/asset 0.gif" alt="Logo" className="h-[100px]" />
+        <img src="/assets/new-logo-2.png" alt="Logo" className="h-[100px]" />
       </div>
 
       <div className="block lg:hidden">

@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaSearch } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function Header2() {
   // Common styles for text and icons
@@ -38,7 +38,7 @@ export default function Header2() {
             {/* Align items to the end */}
             {/* Rotated Call icon pointing right */}
             <FaPhone style={{ ...commonStyles, transform: "rotate(90deg)" }} />
-            <p style={commonStyles}>Make a call: 9834894</p>
+            <p style={commonStyles}>Make a call:(614) 792-1112 </p>
             {/* Search icon */}
             {/* <p className="">
               <FaSearch style={commonStyles} />
